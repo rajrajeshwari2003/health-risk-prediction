@@ -1,0 +1,401 @@
+id,age,bp,sg,al,su,rbc,pc,pcc,ba,bgr,bu,sc,sod,pot,hemo,pcv,wc,rc,htn,dm,cad,appet,pe,ane,classification
+1,58.0,86.0,1.005,1.0,5.0,abnormal,abnormal,notpresent,notpresent,197.0,16.0,3.91,142.0,,,27.0,,3.2,yes, yes,no,good,no,no,
+2,71.0,146.0,1.005,0.0,5.0,Abnormal,abnormal,,notpresent,96.0,,1.23,135.0,5.43,,27.0,7270.0,4.2,no,,no,poor,,no,ckd
+3,48.0,96.0,1.005,,1.0,abnormal,abnormal,notpresent,,,74.0,2.65,122.0,4.67,8.8,46.0,13046.0,4.4,no,Yes,no,,no,yes,ckd
+4,,112.0,1.025,2.0,3.0,normal,abnormal,notpresent,notpresent,,45.0,3.73,,4.47,12.2,39.0,7683.0,4.4,yes,no,no,good,yes,no,ckd
+5,,127.0,,,1.0, abnormal,abnormal,notpresent,notpresent,166.0,34.0,1.61,144.0,,12.3,41.0,3494.0,,,no,yes,good,no,, notckd
+6,27.0,,,5.0,5.0,Normal,abnormal,notpresent,notpresent,94.0,,3.38,141.0,5.53,15.6,34.0,10116.0,,no,,no,poor,no,no,CKD
+7,40.0,138.0,1.015,0.0,4.0,Abnormal,normal,present,notpresent,195.0,10.0,3.5,128.0,4.55,10.0,43.0,14374.0,4.4,,yes,yes,poor,yes,yes, ckd
+8,58.0,165.0,1.02,5.0,0.0,Abnormal,normal,notpresent,notpresent,78.0,24.0,1.23,148.0,4.53,11.4,26.0,4784.0,4.2,no,no,yes,,yes,,ckd
+9,77.0,101.0,1.01,2.0,0.0, normal,abnormal,present,notpresent,185.0,46.0,3.04,134.0,5.97,15.3,30.0,6510.0,5.5,no, no,yes,,no,yes,CKD
+10,38.0,109.0,1.02,0.0,4.0,normal,abnormal,,notpresent,129.0,22.0,3.97,124.0,5.15,15.4,26.0,6786.0,5.7,no,Yes,yes,good,yes,yes, ckd
+11,42.0,117.0,1.02,5.0,5.0,,normal,notpresent,,190.0,17.0,2.75,142.0,4.05,11.5,48.0,8266.0,,,No,yes,good,,,
+12,30.0,130.0,1.025,4.0,0.0,,abnormal,present,present,177.0,14.0,0.55,132.0,,12.1,23.0,12190.0,5.0,no,yes,no,good,no,,NOTCKD
+13,30.0,133.0,1.01,4.0,0.0, abnormal,normal,notpresent,present,177.0,69.0,0.54,133.0,3.86,10.7,44.0,8428.0,3.4,no,Yes,no,poor,yes,no,notckd
+14,,87.0,1.02,1.0,0.0,normal,normal,notpresent,notpresent,,82.0,2.11,,3.3,16.4,31.0,9681.0,3.8,yes, yes,yes,good,yes,yes, notckd
+15,72.0,106.0,1.02,5.0,3.0, normal,normal,present,notpresent,99.0,10.0,4.67,134.0,4.59,9.1,45.0,9893.0,,no,no,yes,good,yes,no,CKD
+16,55.0,106.0,1.01,3.0,3.0,,abnormal,present,present,90.0,45.0,1.53,135.0,,16.4,25.0,12643.0,5.8,no, no,no,poor,yes,no,
+17,59.0,177.0,1.01,5.0,2.0, normal,abnormal,present,present,103.0,44.0,3.35,142.0,5.75,14.2,33.0,12943.0,5.0,yes, no,no,,no,no, ckd
+18,43.0,100.0,,,1.0,Abnormal,normal,present,present,110.0,,1.5,132.0,3.7,12.8,31.0,13472.0,5.2,no, no,yes,good,yes,no,notckd
+19,22.0,109.0,1.01,0.0,4.0, normal,normal,notpresent,notpresent,120.0,,1.95,,4.35,8.3,30.0,7658.0,3.9,yes, yes,no,poor,yes,no,CKD
+20,41.0,176.0,1.02,,4.0,normal,normal,notpresent,present,151.0,32.0,4.32,142.0,3.24,12.3,38.0,10082.0,5.5,no, no,,good,yes,no,ckd
+21,72.0,107.0,1.02,2.0,4.0, normal,normal,notpresent,notpresent,127.0,18.0,3.78,,5.98,11.7,40.0,14126.0,,yes,yes,no,poor,yes,no,CKD
+22,21.0,143.0,,4.0,2.0, normal,,present,notpresent,144.0,43.0,0.93,140.0,5.93,9.5,24.0,9869.0,3.0,, yes,yes,good,yes,yes,ckd
+23,43.0,176.0,1.005,0.0,3.0,abnormal,,present,present,92.0,55.0,2.43,121.0,4.77,13.9,33.0,14926.0,,,yes,,good,no,yes,ckd
+24,63.0,148.0,1.02,4.0,,Normal,normal,present,notpresent,197.0,87.0,0.63,124.0,5.32,16.7,40.0,10607.0,4.7,no,No,yes,good,no,no, ckd
+25,49.0,140.0,1.015,0.0,5.0,abnormal,abnormal,notpresent,notpresent,86.0,13.0,,125.0,5.0,13.1,43.0,10669.0,,no, yes,yes,poor,yes,yes,
+26,57.0,127.0,,1.0,2.0,normal,normal,present,notpresent,138.0,39.0,3.48,131.0,,14.4,35.0,14538.0,5.6,no, yes,yes,poor,,yes,
+27,,,1.005,3.0,5.0,normal,,notpresent,notpresent,177.0,84.0,1.03,137.0,2.69,8.6,44.0,,3.3,yes,No,yes,poor,no,,ckd
+28,79.0,83.0,1.005,0.0,, abnormal,abnormal,present,present,163.0,81.0,1.8,149.0,4.09,11.8,32.0,9219.0,4.7,yes,,yes,poor,yes,no, notckd
+29,40.0,114.0,,,1.0, normal,abnormal,notpresent,present,84.0,12.0,2.29,,4.86,9.0,44.0,7534.0,4.5,yes,no,no,good,no,no,ckd
+30,52.0,143.0,1.02,1.0,0.0,abnormal,,notpresent,notpresent,160.0,23.0,4.64,141.0,,13.5,48.0,14995.0,3.8,no, no,yes,poor,,no,ckd
+31,31.0,128.0,1.025,0.0,3.0,abnormal,abnormal,present,notpresent,102.0,69.0,4.97,120.0,3.81,,41.0,8979.0,5.5,yes,No,yes,poor,yes,no,ckd
+32,,96.0,1.02,2.0,3.0,Normal,abnormal,present,present,194.0,86.0,0.7,149.0,,,41.0,13171.0,5.3,no,Yes,yes,poor,no,no,NOTCKD
+33,41.0,123.0,1.025,3.0,2.0, abnormal,normal,,notpresent,,54.0,3.92,136.0,3.09,8.7,44.0,11890.0,5.2,no, no,no,,yes,yes, ckd
+34,63.0,171.0,1.025,,,,abnormal,notpresent,present,135.0,43.0,2.17,149.0,4.25,11.2,39.0,4312.0,5.6,yes,no,,good,yes,no,CKD
+35,44.0,109.0,,1.0,4.0, abnormal,normal,present,notpresent,,54.0,2.27,,4.92,13.0,41.0,5962.0,5.2,no,no,no,poor,no,yes, notckd
+36,,172.0,1.025,2.0,5.0, abnormal,abnormal,present,notpresent,,70.0,3.89,129.0,4.94,11.6,23.0,5938.0,3.7,yes, no,no,poor,no,no,ckd
+37,46.0,125.0,1.01,5.0,4.0, abnormal,abnormal,notpresent,,70.0,92.0,4.63,138.0,4.77,15.5,30.0,,5.1,no,Yes,no,good,yes,yes,CKD
+38,78.0,85.0,1.015,1.0,2.0,abnormal,,present,present,156.0,25.0,4.78,133.0,3.46,15.3,36.0,,3.9,yes,,no,poor,,no, ckd
+39,61.0,178.0,1.025,,4.0,abnormal,abnormal,notpresent,present,197.0,75.0,3.1,145.0,3.05,13.5,26.0,8296.0,3.7,no, yes,no,poor,,no,
+40,47.0,,1.005,2.0,5.0,Abnormal,normal,notpresent,present,136.0,49.0,2.11,129.0,,11.4,33.0,10204.0,3.2,yes,no,yes,poor,,no,notckd
+41,79.0,103.0,1.01,1.0,1.0, normal,normal,present,notpresent,73.0,,4.04,134.0,4.6,10.3,45.0,8730.0,,,Yes,yes,poor,no,no, ckd
+42,,172.0,1.01,2.0,2.0, normal,normal,present,,116.0,43.0,1.63,,3.13,9.0,30.0,3126.0,5.1,no, no,no,good,yes,no, ckd
+43,,125.0,1.01,0.0,1.0,abnormal,,present,notpresent,107.0,25.0,,138.0,4.97,11.2,47.0,,3.7,no,Yes,yes,good,yes,,ckd
+44,66.0,132.0,1.015,2.0,0.0,Normal,abnormal,present,present,90.0,69.0,2.11,123.0,4.09,11.7,41.0,4191.0,5.2,yes,no,,good,yes,yes,NOTCKD
+45,70.0,174.0,1.025,2.0,1.0,abnormal,,present,present,126.0,,3.45,121.0,4.84,14.1,28.0,5639.0,5.8,no,yes,no,poor,no,no,ckd
+46,63.0,178.0,1.025,3.0,0.0,,,notpresent,notpresent,186.0,,,128.0,5.43,13.9,42.0,4366.0,3.3,no,yes,yes,,yes,yes,CKD
+47,74.0,139.0,1.005,2.0,0.0, normal,,notpresent,present,115.0,99.0,1.36,129.0,3.09,8.6,32.0,12211.0,3.7,no, yes,yes,good,yes,no, ckd
+48,,176.0,1.005,2.0,, abnormal,abnormal,present,present,108.0,22.0,4.63,147.0,2.57,11.6,42.0,,5.3,,No,no,good,no,yes, ckd
+49,76.0,142.0,1.01,5.0,2.0,Abnormal,normal,present,present,168.0,65.0,0.96,130.0,5.23,9.6,,,3.8,yes, yes,yes,good,no,yes, ckd
+50,,164.0,1.005,0.0,5.0,,abnormal,present,present,146.0,40.0,2.78,133.0,4.63,9.4,47.0,9683.0,4.9,no, yes,no,poor,yes,yes,CKD
+51,56.0,111.0,1.015,3.0,4.0,abnormal,normal,notpresent,notpresent,184.0,43.0,1.49,126.0,4.95,15.4,,7539.0,3.2,, yes,no,good,yes,yes,notckd
+52,70.0,166.0,1.025,5.0,4.0, normal,normal,present,notpresent,,48.0,0.68,142.0,5.43,,34.0,11876.0,4.4,yes, yes,,poor,yes,yes,CKD
+53,26.0,112.0,1.01,,5.0, abnormal,abnormal,present,present,167.0,76.0,0.66,134.0,5.31,11.8,44.0,14821.0,5.2,no,No,yes,poor,yes,yes, notckd
+54,40.0,146.0,1.005,0.0,0.0,Abnormal,abnormal,notpresent,present,189.0,17.0,1.29,141.0,,9.5,45.0,,5.1,yes,,yes,good,no,no, ckd
+55,28.0,97.0,1.015,,0.0, abnormal,abnormal,notpresent,present,115.0,96.0,4.4,138.0,,15.9,44.0,12654.0,5.4,no,Yes,no,good,no,yes,ckd
+56,58.0,104.0,,4.0,2.0, normal,normal,present,notpresent,107.0,87.0,1.77,141.0,4.21,13.0,41.0,7086.0,5.6,no, yes,no,poor,yes,no,NOTCKD
+57,37.0,174.0,1.005,2.0,3.0,abnormal,normal,present,,169.0,64.0,4.78,134.0,3.91,10.1,48.0,5261.0,,no,,no,good,yes,no, ckd
+58,23.0,133.0,1.025,5.0,1.0,Normal,abnormal,present,notpresent,141.0,36.0,3.12,149.0,,12.5,38.0,7180.0,5.0,yes, yes,yes,,yes,yes,CKD
+59,44.0,137.0,1.005,1.0,0.0,Normal,abnormal,notpresent,notpresent,104.0,62.0,2.46,147.0,4.5,14.6,20.0,,3.1,yes,yes,yes,poor,no,yes,NOTCKD
+60,79.0,146.0,1.01,3.0,4.0,Abnormal,abnormal,present,present,99.0,48.0,3.11,143.0,3.47,16.6,23.0,,4.6,,,no,poor,yes,no,ckd
+61,33.0,125.0,1.005,1.0,2.0,abnormal,abnormal,present,present,147.0,,2.83,127.0,,10.0,33.0,9040.0,3.1,yes,yes,yes,poor,yes,yes,
+62,69.0,103.0,,4.0,1.0,Normal,normal,present,,153.0,26.0,3.91,130.0,4.54,16.0,33.0,6560.0,5.4,no,No,yes,poor,,yes,ckd
+63,77.0,,1.005,0.0,2.0, abnormal,abnormal,notpresent,,182.0,39.0,1.77,148.0,,16.4,22.0,13304.0,,no,yes,no,poor,no,yes, notckd
+64,28.0,126.0,1.025,0.0,1.0,Normal,normal,notpresent,present,94.0,62.0,2.09,128.0,3.74,16.2,49.0,7758.0,4.7,yes,,no,,yes,yes,notckd
+65,45.0,165.0,1.02,3.0,1.0, normal,normal,present,notpresent,157.0,22.0,4.52,134.0,2.68,13.7,47.0,3626.0,3.8,,No,yes,poor,yes,yes,CKD
+66,72.0,102.0,1.005,0.0,5.0,Abnormal,abnormal,,notpresent,,30.0,4.76,,2.61,13.7,,14606.0,5.3,,No,no,poor,no,yes,ckd
+67,21.0,,1.025,0.0,0.0,Abnormal,,,present,171.0,28.0,4.52,149.0,3.98,11.6,22.0,8014.0,5.7,yes,No,yes,poor,yes,yes,CKD
+68,39.0,,1.025,3.0,2.0,normal,abnormal,notpresent,,152.0,62.0,2.39,120.0,2.8,14.8,35.0,4375.0,4.2,no,,no,good,yes,no, notckd
+69,,81.0,1.015,5.0,2.0,Normal,normal,notpresent,present,179.0,28.0,4.01,138.0,4.62,12.8,33.0,4181.0,5.6,no,no,no,poor,no,yes,CKD
+70,66.0,169.0,,5.0,5.0,Normal,abnormal,,notpresent,88.0,66.0,2.64,122.0,,14.1,49.0,8708.0,3.8,yes,yes,no,poor,no,no,ckd
+71,79.0,96.0,1.025,,4.0,normal,abnormal,notpresent,notpresent,97.0,34.0,,129.0,5.59,11.9,39.0,3490.0,4.6,no,No,yes,poor,no,,
+72,,112.0,1.025,4.0,4.0, abnormal,normal,notpresent,present,,95.0,1.42,127.0,4.81,14.6,48.0,6729.0,5.6,no,,yes,good,yes,no,notckd
+73,63.0,88.0,1.025,0.0,0.0,,abnormal,notpresent,present,,40.0,3.16,,3.24,15.4,32.0,,4.0,no,No,no,,no,no, ckd
+74,,,1.01,0.0,0.0,Abnormal,normal,notpresent,notpresent,142.0,90.0,1.34,,5.52,9.3,34.0,6534.0,,yes, yes,no,poor,no,yes,ckd
+75,66.0,127.0,1.01,4.0,3.0,Abnormal,abnormal,,,,64.0,1.99,120.0,5.6,15.5,33.0,6296.0,3.4,yes,No,no,poor,yes,no, notckd
+76,54.0,,1.015,5.0,5.0, abnormal,normal,present,notpresent,188.0,32.0,4.35,148.0,,12.9,43.0,4940.0,3.1,,Yes,yes,good,,no, ckd
+77,33.0,172.0,1.005,2.0,4.0,normal,abnormal,present,notpresent,190.0,41.0,1.43,137.0,5.08,15.6,44.0,8014.0,5.7,no,,no,,no,no,ckd
+78,36.0,,,2.0,1.0,,abnormal,,present,88.0,71.0,0.82,121.0,3.5,11.9,38.0,4882.0,3.2,no, yes,no,good,no,no,NOTCKD
+79,55.0,105.0,1.005,2.0,,Abnormal,normal,notpresent,present,189.0,83.0,0.81,138.0,5.31,11.4,,7908.0,6.0,yes,Yes,no,good,yes,no, notckd
+80,69.0,178.0,1.005,5.0,0.0,abnormal,normal,present,present,130.0,19.0,,132.0,5.99,16.2,,5987.0,,yes,Yes,no,poor,yes,,CKD
+81,59.0,129.0,1.015,5.0,2.0, abnormal,abnormal,notpresent,present,99.0,81.0,2.78,141.0,2.61,10.3,46.0,8585.0,3.4,yes,Yes,yes,poor,no,yes,ckd
+82,23.0,104.0,1.025,4.0,2.0,,normal,notpresent,notpresent,,63.0,2.34,120.0,,15.6,34.0,6159.0,4.6,no, yes,yes,good,no,no,NOTCKD
+83,21.0,,1.025,0.0,3.0, normal,normal,present,notpresent,133.0,61.0,4.15,121.0,4.68,12.4,40.0,7530.0,3.6,no,yes,no,good,yes,yes,CKD
+84,25.0,92.0,1.02,4.0,4.0,normal,normal,notpresent,notpresent,189.0,29.0,4.26,148.0,5.91,12.6,41.0,,4.3,no,No,,poor,no,yes,CKD
+85,73.0,139.0,1.005,4.0,0.0, normal,normal,present,present,121.0,41.0,1.99,135.0,4.13,10.8,39.0,8254.0,3.2,no, yes,yes,,yes,no,NOTCKD
+86,61.0,86.0,,5.0,2.0, abnormal,abnormal,present,notpresent,158.0,23.0,3.62,134.0,,13.2,45.0,4073.0,3.7,no,Yes,yes,good,no,no,ckd
+87,,136.0,1.01,,0.0,Normal,abnormal,,present,122.0,,3.97,132.0,2.72,10.9,,5387.0,4.1,yes, no,no,good,yes,no,
+88,73.0,115.0,1.02,1.0,1.0,normal,normal,notpresent,present,,,3.45,135.0,3.67,8.4,,,,no,Yes,yes,good,yes,yes,ckd
+89,48.0,124.0,1.01,0.0,3.0,Abnormal,normal,present,present,110.0,62.0,1.18,136.0,,10.4,44.0,5693.0,5.9,no, no,yes,,no,no,NOTCKD
+90,37.0,99.0,1.01,5.0,1.0,abnormal,normal,notpresent,present,137.0,33.0,4.44,140.0,,8.1,29.0,12562.0,5.4,no,yes,yes,,no,yes,ckd
+91,45.0,144.0,1.01,2.0,0.0,,normal,present,present,77.0,88.0,2.93,148.0,5.36,16.8,26.0,7340.0,5.2,yes,no,no,good,yes,yes,ckd
+92,63.0,87.0,1.015,1.0,0.0,Normal,abnormal,present,present,71.0,31.0,1.77,148.0,5.48,16.7,41.0,5156.0,,no,no,no,good,no,yes, notckd
+93,53.0,95.0,1.015,,4.0, normal,abnormal,present,notpresent,174.0,39.0,2.41,126.0,5.78,11.6,,10966.0,5.5,yes,Yes,yes,poor,no,no,notckd
+94,29.0,93.0,1.01,5.0,2.0,abnormal,,notpresent,present,194.0,72.0,0.67,143.0,2.8,14.6,37.0,5580.0,,yes, no,,poor,no,yes,NOTCKD
+95,55.0,155.0,,,2.0,abnormal,normal,notpresent,notpresent,179.0,13.0,1.08,145.0,3.85,11.1,36.0,10257.0,5.1,yes,Yes,no,poor,yes,no,ckd
+96,33.0,166.0,1.005,0.0,1.0,normal,normal,notpresent,notpresent,155.0,86.0,,136.0,2.75,14.0,28.0,5159.0,6.0,yes,,no,poor,no,no,ckd
+97,50.0,,1.02,,3.0,normal,abnormal,present,present,189.0,68.0,0.5,126.0,3.24,15.2,29.0,14440.0,3.9,,Yes,yes,poor,no,no,notckd
+98,67.0,171.0,1.025,5.0,5.0, abnormal,normal,present,present,196.0,96.0,2.37,132.0,3.3,16.5,29.0,14923.0,5.0,, yes,yes,good,,no,ckd
+99,34.0,177.0,1.015,5.0,2.0, abnormal,abnormal,notpresent,present,85.0,,,124.0,4.14,11.6,44.0,9772.0,,no,No,no,good,no,no, ckd
+100,27.0,145.0,1.005,2.0,4.0, normal,normal,notpresent,notpresent,131.0,91.0,0.75,145.0,3.44,15.0,26.0,4627.0,5.7,yes, yes,no,,no,yes,CKD
+101,33.0,111.0,1.005,3.0,1.0,Abnormal,abnormal,notpresent,present,,21.0,4.88,136.0,,10.4,35.0,14664.0,5.2,yes, no,yes,poor,yes,,CKD
+102,42.0,,1.025,0.0,1.0, normal,normal,notpresent,notpresent,81.0,40.0,1.52,122.0,3.09,16.9,,11219.0,3.9,yes,no,,,yes,yes,ckd
+103,79.0,142.0,1.025,4.0,5.0,Normal,abnormal,,,104.0,,1.87,126.0,3.02,8.2,37.0,,,no,yes,yes,poor,,yes,
+104,76.0,165.0,1.01,,,Normal,normal,notpresent,present,80.0,43.0,1.87,145.0,5.91,13.4,25.0,4985.0,3.1,no,,yes,good,no,yes,ckd
+105,59.0,130.0,1.015,1.0,, normal,normal,present,notpresent,133.0,91.0,1.54,136.0,5.16,13.9,46.0,12713.0,5.3,yes,,yes,good,yes,no, notckd
+106,40.0,104.0,1.015,1.0,4.0, abnormal,,notpresent,notpresent,119.0,84.0,0.51,126.0,5.89,,39.0,11488.0,3.1,no,yes,no,poor,yes,no,notckd
+107,,137.0,,2.0,3.0, abnormal,abnormal,present,present,138.0,85.0,3.78,140.0,4.04,9.1,20.0,5181.0,5.6,no, no,yes,poor,no,yes, ckd
+108,64.0,142.0,1.01,,4.0,Normal,normal,present,notpresent,117.0,58.0,,120.0,3.47,16.4,20.0,14594.0,3.4,yes,yes,yes,good,no,yes,CKD
+109,37.0,141.0,1.01,1.0,4.0,normal,abnormal,notpresent,notpresent,89.0,88.0,1.51,136.0,5.29,9.6,31.0,5296.0,,yes, no,,good,no,yes,CKD
+110,66.0,101.0,1.01,3.0,0.0, normal,abnormal,notpresent,,170.0,66.0,3.48,149.0,3.64,13.6,40.0,,4.4,no,,no,good,yes,no, ckd
+111,,137.0,1.01,0.0,1.0,Normal,normal,present,notpresent,137.0,35.0,3.84,136.0,,10.0,47.0,5597.0,5.2,no,Yes,yes,good,no,no,CKD
+112,43.0,137.0,1.015,3.0,4.0,Normal,normal,notpresent,notpresent,104.0,27.0,4.32,,3.31,10.8,21.0,3901.0,3.4,no,yes,,good,yes,no,ckd
+113,45.0,165.0,1.015,1.0,5.0, abnormal,normal,notpresent,,134.0,95.0,2.4,144.0,,12.9,23.0,9060.0,4.3,yes, yes,no,poor,yes,yes,ckd
+114,44.0,128.0,,4.0,4.0,Abnormal,abnormal,,present,,47.0,1.86,146.0,,11.8,36.0,12290.0,4.4,,,no,poor,yes,yes,
+115,79.0,131.0,1.02,0.0,2.0, abnormal,normal,present,notpresent,114.0,90.0,1.96,,3.74,9.4,,4677.0,3.6,yes, no,no,poor,no,, ckd
+116,79.0,121.0,1.005,0.0,1.0,Abnormal,abnormal,present,present,156.0,96.0,3.71,122.0,4.86,9.5,30.0,5881.0,3.3,no, yes,yes,,no,yes,CKD
+117,79.0,,1.005,2.0,2.0,normal,abnormal,notpresent,present,145.0,97.0,4.18,134.0,2.72,11.8,,8622.0,5.5,no, no,yes,good,no,no,CKD
+118,64.0,,1.02,2.0,,Normal,normal,,notpresent,145.0,59.0,1.32,,3.24,14.8,45.0,11052.0,4.5,yes,no,yes,good,,yes, notckd
+119,60.0,133.0,1.01,4.0,, normal,normal,,present,116.0,17.0,2.17,140.0,5.33,16.1,,,3.0,no,yes,no,poor,no,yes, notckd
+120,48.0,139.0,1.015,,4.0,normal,normal,present,notpresent,84.0,50.0,4.56,130.0,3.01,8.8,20.0,4248.0,5.4,yes,yes,yes,good,yes,yes,CKD
+121,34.0,176.0,1.005,,4.0, normal,normal,present,notpresent,174.0,15.0,4.13,,3.7,,26.0,14927.0,5.9,no, no,no,poor,yes,no, ckd
+122,64.0,87.0,1.025,4.0,0.0,Abnormal,normal,present,present,95.0,78.0,4.93,147.0,5.53,8.9,49.0,8650.0,4.8,yes,No,yes,good,yes,no,ckd
+123,20.0,132.0,,2.0,5.0,normal,normal,notpresent,,,53.0,3.89,135.0,3.04,8.1,37.0,9079.0,4.5,no, no,no,good,yes,yes,CKD
+124,,139.0,1.02,2.0,2.0,abnormal,abnormal,,,162.0,73.0,2.27,144.0,2.79,14.0,28.0,12456.0,5.6,no,No,,good,yes,no, notckd
+125,26.0,84.0,1.01,0.0,3.0,Abnormal,abnormal,present,,90.0,38.0,3.16,141.0,,,48.0,13099.0,5.9,yes,yes,yes,poor,yes,no, ckd
+126,28.0,147.0,1.005,3.0,,abnormal,abnormal,present,,120.0,37.0,3.47,147.0,3.56,9.5,22.0,10036.0,5.3,, yes,no,poor,no,no, ckd
+127,43.0,85.0,1.01,1.0,2.0,abnormal,normal,present,,107.0,20.0,0.85,128.0,4.47,10.1,27.0,9487.0,4.3,yes, no,no,poor,yes,no,NOTCKD
+128,20.0,175.0,1.005,2.0,2.0,normal,abnormal,notpresent,present,89.0,74.0,,143.0,5.31,8.2,48.0,4058.0,4.8,yes,yes,yes,poor,no,no,ckd
+129,63.0,173.0,,5.0,0.0, abnormal,abnormal,present,present,124.0,28.0,3.69,143.0,2.98,15.5,43.0,13941.0,5.1,yes, no,no,good,yes,yes,
+130,27.0,126.0,1.02,5.0,4.0, abnormal,abnormal,notpresent,notpresent,,18.0,1.25,120.0,4.53,16.8,38.0,5048.0,3.6,no,,no,good,no,,notckd
+131,43.0,178.0,1.025,2.0,2.0,abnormal,abnormal,present,notpresent,97.0,36.0,4.01,148.0,4.27,9.2,23.0,9115.0,4.3,yes,Yes,yes,good,no,yes,CKD
+132,30.0,134.0,1.01,3.0,4.0,,abnormal,present,present,73.0,43.0,3.13,144.0,3.0,,37.0,7248.0,5.5,yes,No,no,good,no,no,
+133,70.0,119.0,1.025,3.0,0.0,Normal,normal,present,notpresent,145.0,53.0,4.78,141.0,4.68,15.8,39.0,5476.0,5.0,yes,,yes,poor,no,no, ckd
+134,36.0,131.0,,4.0,4.0,Normal,normal,present,present,136.0,77.0,0.69,135.0,3.46,16.3,46.0,7603.0,4.2,yes,Yes,yes,good,yes,no,NOTCKD
+135,27.0,,,5.0,1.0, abnormal,abnormal,present,notpresent,155.0,91.0,1.69,128.0,4.21,,30.0,14389.0,5.0,yes, yes,no,good,yes,no,NOTCKD
+136,54.0,92.0,1.015,,3.0,,abnormal,present,notpresent,160.0,24.0,3.21,138.0,2.79,8.5,46.0,6553.0,3.4,no, no,no,good,yes,yes, ckd
+137,54.0,109.0,1.015,5.0,2.0,Normal,abnormal,notpresent,notpresent,174.0,60.0,,131.0,4.11,8.4,33.0,12953.0,4.2,yes,No,yes,,yes,yes,CKD
+138,52.0,98.0,1.015,1.0,5.0,abnormal,normal,present,notpresent,70.0,,3.71,138.0,3.57,13.2,,,5.4,yes, yes,yes,poor,no,yes,ckd
+139,78.0,96.0,1.015,1.0,3.0,Normal,normal,notpresent,notpresent,141.0,92.0,,141.0,5.38,11.5,37.0,7818.0,3.7,yes,No,yes,poor,no,yes,CKD
+140,24.0,,1.005,0.0,, normal,abnormal,present,notpresent,156.0,58.0,0.96,128.0,2.7,,47.0,10192.0,3.6,,,yes,,,yes, ckd
+141,61.0,98.0,1.015,4.0,2.0, abnormal,normal,present,notpresent,75.0,79.0,2.81,126.0,3.97,13.2,47.0,7623.0,5.9,,yes,yes,poor,yes,yes,CKD
+142,,,1.02,2.0,4.0,abnormal,normal,notpresent,present,130.0,65.0,2.79,133.0,4.1,8.1,,10349.0,3.6,yes,Yes,yes,good,no,no,ckd
+143,77.0,,1.02,,1.0, abnormal,abnormal,present,present,81.0,85.0,,148.0,5.04,,,8618.0,3.8,yes,yes,,good,yes,no,NOTCKD
+144,60.0,,1.005,2.0,0.0, abnormal,normal,notpresent,present,75.0,,4.7,138.0,4.51,10.8,22.0,,5.9,no,yes,no,good,,yes,CKD
+145,47.0,169.0,1.015,3.0,2.0, normal,normal,notpresent,notpresent,96.0,46.0,4.22,,4.84,8.4,34.0,12856.0,5.2,no,yes,no,poor,no,no,CKD
+146,26.0,169.0,1.015,4.0,1.0,Normal,abnormal,present,notpresent,193.0,26.0,3.64,121.0,5.22,13.3,46.0,10209.0,5.1,,Yes,yes,poor,no,yes,CKD
+147,28.0,141.0,1.015,3.0,1.0, normal,normal,notpresent,notpresent,175.0,67.0,,128.0,5.52,11.6,46.0,7576.0,5.6,yes,No,no,good,no,yes, ckd
+148,27.0,102.0,1.025,1.0,2.0,Normal,normal,notpresent,notpresent,162.0,96.0,2.58,,3.6,16.8,23.0,14169.0,3.3,yes, no,yes,good,no,no,ckd
+149,31.0,88.0,1.01,1.0,4.0,,,present,notpresent,178.0,99.0,4.64,134.0,4.38,12.9,24.0,4871.0,5.1,no, yes,yes,,yes,yes,ckd
+150,,91.0,1.025,0.0,5.0, abnormal,normal,notpresent,notpresent,168.0,38.0,3.63,,5.44,,,10915.0,4.5,yes,yes,no,poor,no,yes,ckd
+151,52.0,80.0,1.01,4.0,1.0, normal,,,notpresent,104.0,42.0,3.78,130.0,5.96,14.4,26.0,4462.0,5.5,no,No,yes,,yes,yes,CKD
+152,67.0,137.0,1.015,3.0,3.0,,,present,present,153.0,69.0,4.38,140.0,5.61,10.4,35.0,8521.0,4.5,no, no,yes,good,,no,ckd
+153,74.0,80.0,1.015,2.0,1.0,Normal,abnormal,present,notpresent,125.0,98.0,1.73,133.0,3.8,16.1,33.0,11536.0,,no, no,yes,good,yes,no, notckd
+154,42.0,113.0,1.025,1.0,5.0,Abnormal,abnormal,present,,118.0,64.0,4.13,149.0,3.18,11.4,45.0,11236.0,4.4,, yes,yes,good,yes,,CKD
+155,43.0,175.0,1.025,1.0,4.0,abnormal,normal,notpresent,,115.0,19.0,1.38,144.0,4.21,12.9,35.0,10813.0,4.4,,Yes,yes,poor,yes,no,CKD
+156,56.0,127.0,1.01,2.0,,,abnormal,,notpresent,182.0,56.0,2.05,127.0,5.1,8.5,26.0,5068.0,5.3,no, no,yes,poor,,yes,ckd
+157,,168.0,1.02,3.0,3.0,abnormal,normal,present,notpresent,112.0,32.0,2.01,137.0,4.22,11.8,28.0,8753.0,4.9,yes,yes,no,,yes,no,CKD
+158,63.0,80.0,1.01,3.0,1.0,Normal,abnormal,notpresent,,193.0,94.0,4.9,138.0,4.19,15.5,,10237.0,4.9,no,,yes,good,yes,,CKD
+159,59.0,95.0,1.025,4.0,4.0, normal,normal,present,present,166.0,30.0,4.35,,5.43,,49.0,10016.0,4.4,yes,Yes,yes,good,no,no,ckd
+160,41.0,,1.025,4.0,5.0,abnormal,abnormal,present,,159.0,22.0,3.66,121.0,3.76,10.0,49.0,9191.0,4.6,no, no,yes,poor,no,yes,
+161,46.0,143.0,1.005,5.0,2.0,Abnormal,abnormal,notpresent,notpresent,108.0,42.0,,127.0,5.51,10.0,41.0,4514.0,5.2,yes, no,yes,good,yes,,
+162,54.0,142.0,1.025,5.0,,,abnormal,notpresent,present,,33.0,3.03,141.0,3.92,15.4,30.0,5598.0,5.5,no,Yes,no,poor,yes,no, ckd
+163,20.0,148.0,1.005,0.0,0.0,Normal,abnormal,notpresent,notpresent,131.0,20.0,4.76,125.0,3.65,16.4,21.0,4001.0,,no, yes,no,good,yes,yes, ckd
+164,54.0,101.0,1.02,1.0,0.0, abnormal,normal,notpresent,notpresent,175.0,26.0,2.73,131.0,4.09,8.9,31.0,4033.0,5.8,no, yes,yes,poor,no,yes,ckd
+165,56.0,172.0,1.01,4.0,1.0,Abnormal,abnormal,,notpresent,176.0,,2.21,134.0,5.17,12.1,,13232.0,5.5,no,yes,,good,no,yes, ckd
+166,66.0,146.0,,3.0,3.0,abnormal,abnormal,notpresent,present,123.0,56.0,1.23,144.0,,11.0,49.0,9899.0,4.7,no,Yes,yes,good,yes,yes, ckd
+167,33.0,155.0,1.005,2.0,4.0, abnormal,normal,notpresent,present,195.0,,4.04,127.0,3.19,15.8,23.0,11465.0,5.0,yes, no,no,poor,yes,no, ckd
+168,,105.0,1.01,,2.0,Normal,,present,present,78.0,82.0,3.8,123.0,5.83,8.8,37.0,8051.0,5.8,yes,Yes,no,,,,CKD
+169,20.0,,1.025,1.0,5.0,Normal,normal,notpresent,notpresent,157.0,30.0,2.23,134.0,3.11,9.9,45.0,13839.0,4.9,no,Yes,no,poor,no,no,
+170,24.0,130.0,1.015,5.0,, normal,abnormal,notpresent,notpresent,106.0,93.0,0.61,147.0,4.49,14.8,,12971.0,5.5,no,yes,no,,yes,no,NOTCKD
+171,45.0,165.0,1.005,3.0,5.0, abnormal,abnormal,notpresent,present,118.0,,4.28,139.0,,8.5,,7476.0,5.1,no,no,yes,poor,yes,no,CKD
+172,74.0,136.0,1.01,0.0,1.0, abnormal,abnormal,present,present,110.0,92.0,0.55,144.0,4.21,12.4,,3478.0,4.7,yes,No,no,good,,no, notckd
+173,,108.0,1.005,1.0,0.0,normal,normal,present,present,86.0,21.0,3.67,136.0,4.76,12.0,20.0,3515.0,3.7,yes,yes,no,poor,,no,CKD
+174,58.0,157.0,1.005,5.0,1.0,normal,abnormal,notpresent,notpresent,157.0,46.0,4.87,132.0,3.3,11.0,45.0,4191.0,4.3,no,no,,poor,no,yes, ckd
+175,46.0,171.0,1.015,2.0,3.0,Normal,abnormal,notpresent,present,90.0,51.0,2.47,137.0,4.43,11.6,45.0,13860.0,5.9,, no,yes,poor,no,,ckd
+176,28.0,148.0,1.025,,3.0,Normal,,notpresent,,120.0,26.0,1.56,121.0,3.8,12.8,42.0,9297.0,5.0,no,no,no,,yes,no, ckd
+177,34.0,126.0,1.005,0.0,5.0, abnormal,normal,present,notpresent,128.0,57.0,,132.0,4.82,9.5,45.0,12603.0,4.7,no,no,no,poor,yes,no,CKD
+178,34.0,173.0,1.01,1.0,4.0,Normal,normal,present,notpresent,110.0,37.0,4.18,132.0,2.99,13.1,32.0,14472.0,5.8,no, no,no,poor,yes,yes, ckd
+179,45.0,141.0,,2.0,4.0,Normal,abnormal,notpresent,notpresent,108.0,50.0,2.96,141.0,4.5,15.2,25.0,,,yes, no,no,poor,no,,
+180,61.0,148.0,1.005,0.0,5.0, normal,normal,,present,80.0,56.0,4.85,134.0,3.15,,25.0,11334.0,,no,Yes,yes,good,yes,no,CKD
+181,79.0,155.0,,5.0,3.0,,abnormal,notpresent,notpresent,146.0,27.0,0.73,139.0,3.48,,31.0,10778.0,5.3,no,no,yes,good,yes,yes,CKD
+182,32.0,95.0,1.015,0.0,3.0,normal,abnormal,present,notpresent,196.0,87.0,,148.0,3.27,9.3,27.0,9008.0,5.1,no,,no,poor,yes,,ckd
+183,,,1.025,,3.0,normal,abnormal,present,,115.0,80.0,3.73,146.0,3.14,10.4,43.0,10987.0,3.6,yes, yes,no,good,no,,ckd
+184,51.0,169.0,1.02,4.0,1.0,normal,abnormal,notpresent,notpresent,114.0,22.0,4.38,129.0,5.39,11.2,41.0,6332.0,4.4,yes,yes,no,poor,yes,yes,CKD
+185,58.0,127.0,1.01,,3.0,Abnormal,abnormal,notpresent,present,70.0,91.0,,148.0,3.5,11.7,38.0,3787.0,4.4,yes,Yes,no,good,no,no, notckd
+186,68.0,164.0,1.02,0.0,2.0, abnormal,abnormal,notpresent,present,,,4.1,122.0,5.74,14.1,24.0,9222.0,4.1,no,yes,no,poor,yes,no,ckd
+187,71.0,118.0,1.01,5.0,0.0,abnormal,abnormal,notpresent,notpresent,88.0,40.0,2.99,138.0,5.89,8.5,37.0,12873.0,4.6,yes,no,yes,good,yes,,ckd
+188,51.0,179.0,1.025,5.0,3.0,Abnormal,normal,present,notpresent,145.0,11.0,2.28,,4.5,8.3,49.0,3622.0,4.2,no,,yes,poor,yes,no,CKD
+189,,112.0,1.01,2.0,5.0, normal,normal,present,notpresent,141.0,25.0,1.09,141.0,3.0,,24.0,6841.0,3.6,yes,no,yes,poor,no,no, notckd
+190,49.0,173.0,1.015,5.0,0.0,abnormal,normal,present,notpresent,,18.0,4.39,133.0,3.81,,,6676.0,4.2,no, no,no,good,yes,yes,
+191,56.0,102.0,1.015,3.0,1.0,abnormal,normal,notpresent,notpresent,81.0,82.0,1.21,127.0,5.29,9.7,44.0,5572.0,,yes, yes,no,poor,,yes,ckd
+192,42.0,89.0,1.015,1.0,5.0, normal,normal,present,notpresent,114.0,47.0,1.89,,3.79,13.8,29.0,9915.0,4.7,no,No,yes,poor,no,yes,
+193,58.0,148.0,1.015,1.0,,Normal,normal,notpresent,present,159.0,84.0,1.81,142.0,2.8,10.3,20.0,8033.0,5.6,yes,no,yes,poor,no,,ckd
+194,,179.0,1.02,4.0,5.0,Abnormal,normal,present,present,172.0,63.0,4.42,149.0,4.45,16.0,29.0,10788.0,5.2,yes,Yes,no,poor,no,no, ckd
+195,34.0,113.0,1.025,4.0,1.0,,abnormal,notpresent,notpresent,77.0,65.0,3.53,123.0,5.46,,24.0,14452.0,4.1,,No,yes,good,yes,no,ckd
+196,62.0,131.0,1.01,1.0,2.0,normal,abnormal,notpresent,present,160.0,95.0,,146.0,5.29,,31.0,8214.0,3.3,no, no,,poor,no,yes, ckd
+197,48.0,174.0,1.01,,1.0, abnormal,abnormal,present,notpresent,,96.0,1.63,147.0,3.11,10.1,41.0,7712.0,3.6,yes,no,no,good,yes,no,CKD
+198,55.0,89.0,1.015,2.0,1.0,Normal,abnormal,notpresent,present,153.0,54.0,3.31,139.0,4.85,,49.0,3066.0,4.6,,no,yes,good,no,no,
+199,32.0,98.0,1.015,5.0,5.0, normal,normal,notpresent,present,151.0,,3.07,130.0,3.27,,46.0,10533.0,3.6,yes,Yes,yes,good,,no,ckd
+200,51.0,137.0,1.005,1.0,4.0, normal,normal,present,present,137.0,18.0,4.25,145.0,3.26,14.1,26.0,,4.6,yes,yes,yes,good,no,yes,CKD
+201,26.0,175.0,1.025,4.0,3.0,normal,abnormal,notpresent,notpresent,196.0,97.0,4.58,130.0,5.56,15.4,28.0,4140.0,3.7,no, yes,no,,yes,yes, ckd
+202,78.0,80.0,1.02,1.0,3.0, abnormal,abnormal,notpresent,present,151.0,17.0,,146.0,3.37,14.1,41.0,13506.0,5.5,yes,Yes,no,poor,yes,no,NOTCKD
+203,,148.0,1.01,3.0,2.0,,normal,notpresent,,153.0,16.0,3.53,149.0,3.42,15.4,40.0,8730.0,4.2,no,Yes,yes,good,yes,no,CKD
+204,41.0,83.0,1.005,0.0,2.0,,abnormal,present,present,182.0,45.0,0.73,130.0,2.5,11.6,31.0,13724.0,3.7,no, no,no,poor,yes,no,NOTCKD
+205,47.0,95.0,1.005,5.0,3.0, abnormal,abnormal,present,present,145.0,27.0,2.97,121.0,5.55,9.4,42.0,14772.0,5.4,no, no,no,good,,yes, ckd
+206,21.0,103.0,1.01,1.0,4.0, normal,,,,191.0,12.0,1.79,,5.27,14.6,48.0,10465.0,4.0,no,,no,poor,yes,yes, notckd
+207,61.0,159.0,1.02,0.0,3.0,Abnormal,abnormal,present,present,110.0,,,136.0,4.7,11.2,20.0,12379.0,3.3,, yes,yes,poor,yes,yes,
+208,64.0,81.0,1.005,4.0,4.0,abnormal,normal,notpresent,present,71.0,79.0,2.09,128.0,5.13,14.0,30.0,7471.0,4.7,no, yes,no,poor,yes,no, notckd
+209,76.0,171.0,1.005,0.0,2.0,abnormal,abnormal,notpresent,notpresent,98.0,53.0,3.3,147.0,,,49.0,6339.0,4.7,no, no,yes,good,yes,, ckd
+210,72.0,111.0,1.025,5.0,0.0, normal,abnormal,notpresent,notpresent,174.0,30.0,2.0,147.0,4.1,8.7,40.0,3548.0,,no, yes,yes,,,, ckd
+211,,170.0,1.02,1.0,5.0, abnormal,normal,notpresent,present,120.0,37.0,,121.0,3.73,16.9,34.0,10675.0,3.7,no,No,no,poor,no,no,ckd
+212,47.0,163.0,1.005,3.0,2.0,Abnormal,normal,notpresent,present,144.0,63.0,2.32,148.0,2.83,9.4,21.0,11264.0,4.3,yes,no,yes,good,yes,yes,ckd
+213,47.0,103.0,1.02,4.0,2.0,normal,abnormal,present,,79.0,,0.81,,,16.9,,3198.0,3.8,yes,no,no,good,yes,no,notckd
+214,63.0,91.0,,1.0,1.0,Abnormal,normal,notpresent,present,120.0,74.0,4.03,134.0,5.72,16.8,26.0,14393.0,3.2,no,No,yes,poor,yes,yes,CKD
+215,63.0,129.0,1.015,5.0,,,abnormal,present,notpresent,187.0,30.0,1.79,135.0,2.64,15.1,40.0,12973.0,5.6,no,yes,yes,good,,no,NOTCKD
+216,39.0,114.0,,,1.0,abnormal,abnormal,present,present,190.0,22.0,2.45,144.0,3.52,,31.0,3571.0,,no,no,no,poor,no,no, notckd
+217,49.0,,1.025,2.0,,Abnormal,normal,,notpresent,108.0,66.0,3.58,123.0,3.23,13.2,41.0,3790.0,3.9,yes,No,,poor,no,yes, ckd
+218,30.0,112.0,1.01,0.0,1.0, abnormal,abnormal,notpresent,,97.0,58.0,2.0,127.0,3.33,15.8,37.0,12830.0,,yes,yes,yes,poor,yes,no,notckd
+219,77.0,140.0,1.02,5.0,4.0,,abnormal,present,notpresent,72.0,63.0,0.75,128.0,5.68,,22.0,13023.0,3.6,yes,no,yes,good,no,no, notckd
+220,,130.0,1.01,2.0,3.0,Abnormal,abnormal,present,present,153.0,19.0,2.18,145.0,4.14,12.2,26.0,13047.0,5.7,yes,No,no,poor,no,no,NOTCKD
+221,47.0,122.0,1.005,1.0,0.0,,abnormal,present,present,186.0,62.0,4.75,145.0,4.13,13.6,30.0,4174.0,3.3,yes,no,no,poor,yes,no, ckd
+222,44.0,91.0,1.02,3.0,2.0, normal,normal,notpresent,notpresent,71.0,53.0,3.39,124.0,5.16,11.7,37.0,14932.0,3.0,no, yes,yes,good,yes,no,
+223,58.0,146.0,1.015,4.0,4.0,normal,normal,present,present,162.0,56.0,3.52,135.0,3.04,11.8,31.0,,4.5,yes,No,yes,good,yes,no,ckd
+224,52.0,144.0,1.01,,0.0,normal,,notpresent,present,163.0,62.0,3.35,132.0,4.21,11.0,25.0,3178.0,,yes,no,yes,good,yes,no, ckd
+225,20.0,112.0,1.005,4.0,4.0, abnormal,normal,notpresent,present,109.0,83.0,,,4.0,13.1,24.0,5244.0,4.7,,yes,no,good,no,no,NOTCKD
+226,76.0,119.0,1.025,1.0,4.0,normal,,notpresent,notpresent,71.0,,2.38,126.0,4.59,15.7,45.0,7086.0,3.2,yes, yes,no,poor,yes,yes,notckd
+227,,153.0,1.02,4.0,2.0,Abnormal,abnormal,present,present,150.0,22.0,3.88,145.0,6.0,,20.0,3734.0,,yes,No,yes,good,no,yes, ckd
+228,76.0,122.0,1.01,0.0,3.0, abnormal,abnormal,notpresent,present,81.0,46.0,0.96,139.0,5.19,16.4,31.0,9232.0,4.5,yes,No,no,good,yes,no,NOTCKD
+229,71.0,123.0,,1.0,1.0,normal,abnormal,notpresent,notpresent,134.0,33.0,1.75,136.0,3.89,14.2,46.0,,3.6,no,yes,no,,no,no,notckd
+230,32.0,108.0,1.015,4.0,,Normal,abnormal,notpresent,notpresent,124.0,11.0,1.74,,5.4,15.4,45.0,10601.0,5.6,yes, no,no,good,yes,yes,notckd
+231,60.0,92.0,1.015,3.0,3.0,Abnormal,normal,notpresent,notpresent,114.0,,,,3.1,13.0,30.0,11979.0,3.3,no, yes,no,poor,yes,no,NOTCKD
+232,22.0,,,5.0,5.0,normal,abnormal,notpresent,,,90.0,4.91,138.0,2.61,15.0,23.0,5795.0,4.5,no,,,good,,yes,
+233,58.0,,1.025,1.0,2.0,abnormal,normal,present,present,131.0,23.0,0.8,131.0,3.22,8.1,46.0,7588.0,5.1,yes, yes,no,poor,no,yes, ckd
+234,25.0,125.0,1.005,5.0,2.0,Normal,normal,notpresent,present,118.0,19.0,2.83,148.0,3.69,15.4,37.0,10297.0,3.8,yes, no,no,good,no,yes, ckd
+235,27.0,,1.005,1.0,, normal,abnormal,notpresent,notpresent,196.0,44.0,1.31,146.0,,,23.0,6084.0,4.9,yes,,yes,poor,yes,no, ckd
+236,46.0,114.0,1.025,3.0,0.0,normal,abnormal,present,present,92.0,34.0,4.87,126.0,4.65,16.0,36.0,14110.0,5.5,, yes,yes,poor,no,no,ckd
+237,,166.0,1.025,5.0,5.0,abnormal,abnormal,notpresent,present,107.0,12.0,1.01,147.0,5.69,16.9,21.0,3731.0,3.6,no, yes,no,good,,no,ckd
+238,56.0,160.0,1.02,2.0,3.0,,abnormal,present,notpresent,97.0,26.0,2.32,128.0,4.28,10.6,48.0,4129.0,,yes,Yes,no,poor,no,yes, ckd
+239,52.0,169.0,1.015,0.0,, abnormal,,notpresent,notpresent,90.0,21.0,3.82,147.0,4.25,9.9,43.0,14638.0,4.7,no,yes,yes,good,no,yes,ckd
+240,70.0,87.0,1.005,2.0,4.0, abnormal,normal,present,,176.0,63.0,3.67,125.0,2.68,,41.0,4605.0,3.9,no,no,yes,,no,yes,ckd
+241,61.0,172.0,1.015,4.0,4.0,abnormal,abnormal,,notpresent,168.0,33.0,2.4,148.0,2.62,10.3,21.0,14970.0,,no, no,yes,poor,no,no,CKD
+242,63.0,105.0,,3.0,4.0, abnormal,abnormal,notpresent,notpresent,188.0,38.0,2.06,145.0,4.43,15.8,,13937.0,3.9,no,Yes,no,poor,no,yes, notckd
+243,43.0,153.0,1.025,,,Normal,normal,notpresent,present,142.0,52.0,2.29,136.0,4.03,,25.0,14362.0,5.2,no,,no,,no,, ckd
+244,,169.0,1.02,1.0,3.0,Abnormal,normal,notpresent,notpresent,191.0,,,,5.44,9.1,29.0,5933.0,5.4,yes,,yes,poor,no,no, ckd
+245,78.0,113.0,1.01,4.0,5.0,Abnormal,abnormal,present,,99.0,69.0,1.42,142.0,3.06,16.8,44.0,12407.0,5.5,no,No,no,good,yes,yes,notckd
+246,,86.0,1.02,4.0,2.0,normal,normal,present,present,177.0,99.0,2.67,122.0,2.59,14.1,,11516.0,6.0,no, no,yes,poor,yes,yes,ckd
+247,51.0,,1.02,2.0,0.0, abnormal,,present,notpresent,167.0,,1.71,140.0,4.07,15.6,44.0,8074.0,5.4,yes,,no,poor,no,no,ckd
+248,51.0,137.0,1.015,2.0,4.0,Normal,normal,notpresent,notpresent,101.0,93.0,,145.0,3.33,10.9,40.0,,4.8,yes,no,,poor,yes,no, notckd
+249,43.0,154.0,1.02,3.0,2.0, abnormal,normal,present,notpresent,148.0,37.0,,123.0,2.67,14.1,42.0,10099.0,,no, yes,yes,poor,yes,yes,ckd
+250,60.0,108.0,1.005,0.0,2.0,Normal,abnormal,present,present,110.0,25.0,4.86,129.0,,13.3,46.0,,4.6,no,No,no,poor,no,no, ckd
+251,71.0,,1.015,2.0,0.0, abnormal,normal,notpresent,notpresent,132.0,56.0,3.22,124.0,2.89,13.4,35.0,3893.0,3.1,yes, no,,poor,no,yes,ckd
+252,68.0,168.0,1.005,2.0,1.0,Normal,normal,present,notpresent,92.0,90.0,0.85,140.0,4.63,14.1,33.0,4390.0,5.2,no,no,no,good,no,no,
+253,68.0,100.0,1.01,5.0,3.0,Abnormal,normal,present,notpresent,173.0,,0.84,141.0,3.48,13.2,26.0,,4.3,yes,yes,no,good,no,yes, notckd
+254,77.0,115.0,1.015,1.0,5.0,Abnormal,normal,notpresent,notpresent,144.0,85.0,4.78,149.0,3.11,11.9,,7239.0,3.1,,No,no,good,no,no,CKD
+255,71.0,89.0,1.01,5.0,,Normal,normal,present,,117.0,36.0,1.84,129.0,3.83,10.5,,7479.0,,, no,no,poor,no,yes,notckd
+256,31.0,,1.015,5.0,4.0,Normal,,notpresent,present,126.0,62.0,0.91,131.0,5.31,14.9,38.0,5263.0,4.2,, no,yes,good,,no, ckd
+257,58.0,103.0,1.025,4.0,,Normal,abnormal,notpresent,present,,51.0,3.2,129.0,,10.0,42.0,6432.0,4.8,no,Yes,no,poor,no,no,CKD
+258,21.0,,,0.0,0.0,Normal,abnormal,notpresent,present,169.0,,3.31,148.0,5.13,14.2,36.0,5371.0,4.4,no, no,yes,good,yes,no,
+259,,178.0,1.025,1.0,0.0,Abnormal,normal,notpresent,notpresent,193.0,56.0,3.42,132.0,2.94,10.1,28.0,14278.0,4.9,no,Yes,yes,,no,no,CKD
+260,68.0,128.0,1.01,3.0,3.0,Abnormal,abnormal,notpresent,notpresent,103.0,43.0,1.7,130.0,5.2,13.6,45.0,7312.0,4.4,yes, no,no,poor,no,no,notckd
+261,56.0,178.0,,3.0,1.0, normal,abnormal,present,,76.0,46.0,,141.0,3.33,14.7,,4515.0,5.0,no,yes,yes,poor,yes,no, ckd
+262,68.0,115.0,1.015,2.0,,,abnormal,,present,,15.0,4.84,135.0,4.87,10.0,41.0,,3.7,yes,Yes,yes,good,,no,ckd
+263,75.0,161.0,,2.0,2.0,,normal,notpresent,notpresent,134.0,,1.63,,4.48,8.5,24.0,10088.0,3.3,no, yes,no,,no,yes,CKD
+264,36.0,175.0,1.005,,3.0, normal,abnormal,notpresent,notpresent,116.0,34.0,3.54,127.0,5.75,,42.0,,4.8,no, no,no,good,yes,yes,
+265,78.0,103.0,,2.0,5.0,,normal,present,notpresent,88.0,42.0,3.68,146.0,3.86,13.5,24.0,5917.0,4.5,yes, yes,no,good,no,no,
+266,68.0,102.0,1.005,,0.0,abnormal,abnormal,notpresent,present,195.0,64.0,3.25,144.0,2.73,15.6,29.0,,3.1,no,Yes,yes,poor,yes,no,ckd
+267,21.0,141.0,1.02,5.0,0.0,Abnormal,normal,,notpresent,118.0,67.0,1.91,127.0,2.57,8.4,40.0,10686.0,4.1,,yes,no,,,yes, ckd
+268,21.0,175.0,1.005,,, abnormal,normal,notpresent,present,182.0,16.0,,132.0,5.39,14.6,46.0,13544.0,3.3,yes, yes,no,poor,no,yes,CKD
+269,47.0,116.0,1.01,4.0,, abnormal,abnormal,present,notpresent,107.0,66.0,3.19,146.0,4.34,11.1,29.0,4167.0,,yes,,no,poor,yes,no,ckd
+270,73.0,91.0,1.025,2.0,2.0, abnormal,abnormal,,present,133.0,21.0,,121.0,5.21,12.3,46.0,11302.0,4.2,yes,No,,good,no,yes,ckd
+271,42.0,134.0,,1.0,,,normal,notpresent,present,138.0,25.0,4.76,149.0,3.32,16.4,26.0,8109.0,4.8,no, no,yes,poor,yes,yes,ckd
+272,,92.0,1.02,0.0,, normal,abnormal,notpresent,present,185.0,89.0,0.98,149.0,3.71,11.0,45.0,7327.0,5.4,yes,no,no,good,yes,no,notckd
+273,51.0,102.0,1.025,1.0,3.0, normal,abnormal,present,,134.0,52.0,1.2,131.0,2.61,,34.0,8810.0,3.9,yes,yes,yes,poor,yes,no,notckd
+274,52.0,,1.015,1.0,2.0, normal,abnormal,present,,,,4.75,129.0,5.87,8.1,26.0,6655.0,5.9,no,no,no,poor,,no,CKD
+275,,178.0,1.015,4.0,4.0,normal,normal,notpresent,present,182.0,16.0,3.81,131.0,4.84,8.7,48.0,6793.0,4.6,yes,Yes,,good,no,yes,CKD
+276,38.0,,1.005,0.0,3.0, normal,normal,notpresent,,178.0,60.0,4.47,130.0,5.77,10.3,46.0,12947.0,4.9,no, no,yes,,yes,, ckd
+277,21.0,96.0,1.01,0.0,4.0,abnormal,,,,138.0,82.0,,134.0,3.43,,34.0,9738.0,5.0,no,No,yes,poor,no,no,
+278,72.0,141.0,1.01,,3.0,normal,abnormal,present,notpresent,,41.0,3.14,,4.64,13.7,22.0,4577.0,5.0,yes, no,no,good,no,yes,ckd
+279,63.0,163.0,1.025,0.0,1.0,Normal,abnormal,present,present,157.0,84.0,3.66,136.0,4.87,11.8,38.0,12488.0,4.5,no,Yes,,poor,no,, ckd
+280,45.0,168.0,1.01,0.0,2.0,Normal,normal,notpresent,notpresent,136.0,17.0,3.56,145.0,3.61,12.9,29.0,14966.0,4.3,yes, no,no,poor,yes,,
+281,51.0,165.0,1.02,,3.0,Normal,normal,present,notpresent,144.0,96.0,2.34,121.0,5.47,9.6,47.0,5220.0,3.2,yes,No,,good,no,yes,CKD
+282,25.0,92.0,1.01,2.0,5.0, normal,abnormal,notpresent,notpresent,114.0,98.0,0.57,137.0,5.82,10.7,,12164.0,3.1,yes, no,no,good,yes,yes,notckd
+283,51.0,138.0,1.025,1.0,0.0,Normal,abnormal,present,notpresent,73.0,81.0,3.12,131.0,5.6,14.0,34.0,4030.0,4.1,yes,Yes,no,poor,no,yes, ckd
+284,74.0,98.0,1.01,,5.0, normal,,present,present,,54.0,1.64,138.0,5.09,,22.0,13785.0,4.0,no,no,,poor,no,,
+285,23.0,,1.02,2.0,5.0, abnormal,abnormal,present,notpresent,120.0,95.0,2.53,145.0,,8.5,25.0,9691.0,4.2,no,,yes,poor,yes,yes,ckd
+286,74.0,179.0,1.005,2.0,0.0,,abnormal,present,notpresent,119.0,68.0,,142.0,3.49,16.0,31.0,6992.0,3.4,,Yes,no,good,no,no,ckd
+287,30.0,91.0,1.025,1.0,5.0,Normal,abnormal,notpresent,present,75.0,,2.3,,5.87,13.2,34.0,3913.0,5.2,yes,yes,,poor,yes,no, notckd
+288,75.0,140.0,1.005,4.0,3.0,Abnormal,normal,notpresent,present,128.0,76.0,4.28,149.0,2.54,13.1,25.0,9358.0,5.6,no,no,yes,poor,no,,
+289,78.0,98.0,1.005,3.0,3.0,abnormal,,,notpresent,194.0,,1.35,136.0,5.01,12.5,,5181.0,5.8,yes, no,yes,poor,yes,yes,NOTCKD
+290,36.0,155.0,1.005,3.0,3.0,abnormal,normal,notpresent,notpresent,99.0,38.0,3.53,149.0,4.97,8.6,48.0,,4.5,no,no,yes,poor,,no, ckd
+291,57.0,88.0,1.015,2.0,0.0, abnormal,abnormal,present,notpresent,191.0,37.0,4.9,125.0,4.68,8.8,38.0,9040.0,5.1,yes,yes,,poor,no,yes, ckd
+292,43.0,150.0,1.015,5.0,5.0,,abnormal,,notpresent,194.0,86.0,0.96,,5.97,13.4,22.0,,5.6,no, yes,yes,poor,no,no, ckd
+293,24.0,107.0,1.005,5.0,0.0, abnormal,normal,present,present,106.0,88.0,0.54,134.0,3.59,11.1,27.0,13570.0,,no,Yes,yes,good,yes,yes,notckd
+294,71.0,157.0,,,3.0,Abnormal,normal,present,present,193.0,96.0,2.45,122.0,3.69,16.3,27.0,14646.0,3.9,no,No,no,good,yes,no,CKD
+295,53.0,174.0,1.02,3.0,,Abnormal,normal,,present,170.0,53.0,0.92,125.0,2.78,11.7,42.0,10037.0,5.8,yes,yes,yes,poor,yes,yes,CKD
+296,25.0,131.0,1.02,2.0,5.0,normal,normal,present,notpresent,,,3.87,122.0,4.05,9.3,45.0,14745.0,4.5,yes,,no,poor,no,no,ckd
+297,41.0,162.0,1.01,4.0,4.0,Normal,abnormal,present,notpresent,156.0,13.0,4.62,149.0,3.41,14.4,,12499.0,4.5,yes,Yes,yes,good,yes,yes,CKD
+298,30.0,95.0,1.025,3.0,4.0, normal,,,notpresent,87.0,99.0,2.45,148.0,3.7,10.6,34.0,7994.0,3.5,yes,yes,yes,good,yes,no,
+299,67.0,148.0,,2.0,,Normal,abnormal,present,notpresent,182.0,,1.66,120.0,5.42,12.7,,12381.0,3.3,yes,,yes,good,yes,yes, ckd
+300,,,1.005,2.0,,normal,normal,present,present,98.0,14.0,2.45,149.0,5.77,14.3,38.0,,5.5,no,No,yes,poor,yes,no,CKD
+301,52.0,91.0,1.01,0.0,4.0, normal,abnormal,present,present,146.0,65.0,3.76,132.0,,16.1,40.0,9221.0,4.8,no,No,no,poor,yes,no,ckd
+302,28.0,104.0,1.02,4.0,0.0,normal,abnormal,,notpresent,128.0,93.0,0.54,147.0,3.8,15.1,22.0,10090.0,4.0,no,No,no,poor,yes,no,NOTCKD
+303,79.0,131.0,,0.0,4.0,abnormal,abnormal,,present,195.0,59.0,3.15,140.0,5.75,14.1,32.0,10769.0,3.6,no,no,,poor,yes,yes,ckd
+304,78.0,,1.015,1.0,1.0, abnormal,abnormal,notpresent,notpresent,178.0,84.0,3.26,145.0,2.72,,27.0,3687.0,4.7,no, yes,,good,yes,yes, ckd
+305,25.0,179.0,,0.0,,abnormal,abnormal,,notpresent,,24.0,3.37,133.0,2.82,16.5,,,4.8,no,No,,good,yes,yes,ckd
+306,35.0,132.0,1.02,0.0,1.0,Normal,abnormal,present,present,137.0,41.0,,132.0,3.07,10.7,35.0,12399.0,3.6,no,,yes,,yes,yes,NOTCKD
+307,48.0,102.0,1.025,3.0,5.0,Normal,,notpresent,notpresent,138.0,37.0,3.71,146.0,4.58,8.0,32.0,4894.0,5.6,yes,No,no,good,no,yes, ckd
+308,22.0,95.0,1.015,5.0,5.0,normal,abnormal,present,notpresent,118.0,31.0,0.91,123.0,3.03,10.4,22.0,10389.0,3.3,no,,yes,poor,no,no,NOTCKD
+309,39.0,136.0,1.005,2.0,2.0,Normal,,present,present,178.0,26.0,1.4,126.0,5.89,10.0,35.0,7922.0,4.1,yes,Yes,no,poor,yes,,notckd
+310,79.0,118.0,1.025,4.0,4.0,normal,normal,notpresent,notpresent,155.0,68.0,4.45,141.0,4.06,14.0,28.0,9322.0,5.0,no,yes,no,good,no,no, ckd
+311,78.0,132.0,1.02,0.0,0.0,Abnormal,abnormal,notpresent,notpresent,122.0,99.0,3.82,129.0,4.26,13.7,47.0,13003.0,3.8,no, no,yes,good,no,no,ckd
+312,55.0,121.0,1.015,4.0,0.0,abnormal,normal,notpresent,present,192.0,,0.56,126.0,3.36,13.3,33.0,6183.0,5.5,yes,no,yes,,yes,yes,NOTCKD
+313,38.0,137.0,1.025,5.0,3.0,,,notpresent,notpresent,156.0,,1.62,140.0,4.15,8.1,32.0,6797.0,5.2,no,Yes,no,good,,no,ckd
+314,45.0,118.0,1.025,5.0,5.0,Normal,normal,notpresent,present,111.0,35.0,1.46,134.0,,14.6,40.0,8178.0,5.4,yes,yes,no,good,,yes,NOTCKD
+315,22.0,93.0,1.025,0.0,0.0, normal,abnormal,present,notpresent,167.0,34.0,1.72,134.0,5.13,10.9,44.0,12836.0,3.4,no,Yes,,,no,yes,NOTCKD
+316,38.0,174.0,1.015,1.0,2.0, normal,,notpresent,present,178.0,,1.61,123.0,5.14,14.0,26.0,6968.0,,yes,,yes,poor,yes,yes, ckd
+317,39.0,84.0,1.015,0.0,,Abnormal,abnormal,present,present,,54.0,0.78,142.0,4.52,13.0,34.0,5716.0,3.9,no,Yes,yes,good,no,no, notckd
+318,51.0,114.0,1.01,3.0,2.0,normal,,,present,154.0,92.0,2.57,142.0,5.67,11.1,26.0,3190.0,4.6,yes,no,,good,yes,yes,ckd
+319,26.0,166.0,1.02,,0.0,Normal,abnormal,present,notpresent,,20.0,3.8,,5.36,9.2,25.0,,5.2,yes,No,yes,good,no,yes,CKD
+320,71.0,172.0,1.005,1.0,0.0,normal,abnormal,notpresent,present,90.0,86.0,3.23,143.0,5.15,8.8,21.0,11181.0,5.5,no,No,yes,poor,no,yes,
+321,60.0,154.0,1.025,0.0,,Normal,normal,notpresent,present,113.0,62.0,3.53,139.0,2.69,15.5,28.0,14298.0,,no, no,,poor,yes,no,CKD
+322,52.0,97.0,1.01,4.0,0.0,Abnormal,abnormal,present,present,172.0,81.0,0.87,145.0,2.52,16.3,41.0,3378.0,5.8,yes,yes,no,poor,yes,, notckd
+323,59.0,155.0,1.005,1.0,5.0, normal,,notpresent,present,137.0,77.0,4.78,124.0,3.24,13.8,43.0,6829.0,5.2,no,yes,no,good,no,no, ckd
+324,58.0,,1.01,1.0,5.0,normal,normal,,present,,37.0,4.27,139.0,4.82,8.9,36.0,9380.0,3.9,yes,Yes,no,poor,no,no, ckd
+325,37.0,153.0,1.015,0.0,5.0,abnormal,,notpresent,notpresent,,84.0,4.12,131.0,3.94,11.6,24.0,3615.0,3.8,no,No,yes,good,yes,yes, ckd
+326,59.0,137.0,1.025,1.0,3.0,abnormal,abnormal,notpresent,notpresent,93.0,74.0,4.2,120.0,3.91,14.6,31.0,,5.1,yes,yes,no,poor,yes,no,ckd
+327,20.0,96.0,1.005,,3.0,abnormal,normal,present,notpresent,194.0,58.0,4.7,147.0,5.6,15.0,20.0,4754.0,3.6,no,yes,yes,poor,no,no,ckd
+328,30.0,86.0,1.005,5.0,0.0,,normal,present,notpresent,,56.0,2.95,127.0,5.63,9.1,29.0,3463.0,3.3,yes,no,yes,poor,yes,yes,ckd
+329,47.0,125.0,1.005,1.0,1.0,,normal,notpresent,notpresent,167.0,61.0,1.4,120.0,5.68,8.0,,12158.0,4.6,no,No,no,good,no,yes,ckd
+330,76.0,92.0,1.005,5.0,1.0,abnormal,abnormal,present,notpresent,86.0,97.0,3.28,124.0,3.6,14.4,35.0,7267.0,5.5,yes, no,,good,yes,yes, ckd
+331,44.0,,1.005,4.0,, abnormal,abnormal,notpresent,notpresent,168.0,63.0,3.84,141.0,4.92,11.2,33.0,6158.0,3.3,yes, yes,no,,yes,no,ckd
+332,69.0,121.0,1.01,0.0,0.0,Abnormal,normal,notpresent,present,151.0,69.0,3.82,125.0,3.45,,27.0,6624.0,5.4,,Yes,no,good,yes,yes,ckd
+333,42.0,88.0,1.025,2.0,1.0,abnormal,abnormal,present,notpresent,173.0,66.0,2.85,148.0,3.17,8.1,43.0,7938.0,5.4,no,No,yes,good,no,no,ckd
+334,50.0,129.0,1.015,1.0,0.0,,,present,present,88.0,56.0,,140.0,3.15,12.9,36.0,8417.0,4.4,yes,No,no,good,yes,, notckd
+335,49.0,106.0,1.015,2.0,0.0,abnormal,normal,present,present,154.0,40.0,2.17,122.0,3.7,15.7,44.0,9004.0,3.2,yes,yes,no,good,no,no,NOTCKD
+336,61.0,145.0,1.015,,0.0,Normal,normal,notpresent,notpresent,77.0,55.0,4.64,134.0,4.0,16.6,37.0,11881.0,,yes,No,no,good,,no,
+337,54.0,84.0,1.015,1.0,4.0, normal,,present,present,97.0,35.0,3.13,124.0,5.41,13.1,31.0,13814.0,5.1,yes,yes,no,good,no,no, ckd
+338,26.0,108.0,1.01,5.0,5.0, normal,normal,notpresent,present,74.0,14.0,2.92,147.0,2.92,12.6,44.0,8603.0,5.1,no, no,yes,good,no,yes,CKD
+339,79.0,116.0,1.02,3.0,0.0,,abnormal,present,present,170.0,93.0,1.71,143.0,5.07,8.8,,5212.0,5.7,yes,No,,poor,yes,yes,CKD
+340,35.0,117.0,1.025,2.0,4.0, abnormal,abnormal,present,present,187.0,61.0,,133.0,4.36,12.9,47.0,,4.7,yes,No,no,good,no,no,notckd
+341,45.0,162.0,1.005,1.0,3.0,Abnormal,abnormal,notpresent,notpresent,,84.0,4.53,,3.51,11.4,45.0,8818.0,3.4,yes,yes,no,good,no,no,ckd
+342,67.0,87.0,1.02,2.0,1.0,Abnormal,abnormal,notpresent,notpresent,160.0,63.0,3.5,135.0,4.22,13.5,33.0,,3.4,no,yes,yes,poor,,,ckd
+343,76.0,144.0,1.015,1.0,5.0, abnormal,abnormal,notpresent,notpresent,186.0,42.0,4.04,125.0,3.55,11.5,35.0,5256.0,5.2,yes,no,no,poor,no,yes, ckd
+344,,165.0,1.02,0.0,1.0, abnormal,abnormal,notpresent,notpresent,167.0,59.0,2.54,144.0,4.59,10.2,33.0,14695.0,3.6,no, yes,yes,poor,yes,no, ckd
+345,79.0,96.0,1.025,,5.0,Normal,normal,notpresent,notpresent,80.0,47.0,3.34,143.0,4.02,8.9,28.0,4412.0,4.0,no, no,no,poor,yes,no,ckd
+346,68.0,150.0,1.005,2.0,1.0, normal,,notpresent,notpresent,123.0,36.0,1.62,133.0,3.08,10.8,23.0,12775.0,4.5,no,No,no,good,yes,yes, ckd
+347,21.0,168.0,1.005,3.0,5.0,abnormal,,notpresent,notpresent,116.0,24.0,3.67,146.0,2.91,,44.0,9146.0,3.1,no,Yes,no,poor,no,yes, ckd
+348,20.0,124.0,1.025,3.0,1.0,Normal,abnormal,notpresent,notpresent,,70.0,2.42,143.0,4.41,9.6,,3371.0,3.7,no,yes,yes,poor,no,no,
+349,67.0,83.0,1.025,4.0,1.0,,abnormal,present,notpresent,89.0,30.0,2.49,127.0,5.66,16.9,30.0,8806.0,4.2,no, yes,,good,yes,yes,NOTCKD
+350,31.0,115.0,1.015,1.0,1.0, normal,normal,notpresent,notpresent,,55.0,3.42,148.0,3.7,12.0,25.0,8565.0,3.8,no,Yes,yes,good,,yes, ckd
+351,24.0,149.0,1.005,2.0,,abnormal,abnormal,notpresent,present,81.0,78.0,4.71,,5.07,12.8,34.0,11802.0,3.4,yes,no,yes,good,no,,CKD
+352,56.0,110.0,1.02,4.0,3.0,Abnormal,normal,present,notpresent,139.0,15.0,0.79,127.0,4.81,,24.0,11307.0,5.2,yes,,yes,poor,yes,,notckd
+353,51.0,98.0,1.01,2.0,,Normal,abnormal,notpresent,present,86.0,47.0,4.21,132.0,5.76,17.0,30.0,10437.0,5.4,no,yes,yes,good,yes,no, ckd
+354,78.0,140.0,1.01,1.0,2.0,normal,abnormal,,present,184.0,71.0,1.82,125.0,,13.2,44.0,3446.0,3.8,yes, no,no,poor,no,yes,
+355,74.0,133.0,1.025,3.0,4.0,Abnormal,normal,present,present,117.0,95.0,2.5,137.0,4.48,15.3,37.0,4391.0,5.3,yes, no,yes,good,yes,no,NOTCKD
+356,28.0,118.0,1.015,0.0,2.0, abnormal,normal,notpresent,present,177.0,71.0,0.6,121.0,4.8,10.9,49.0,14516.0,4.2,no,No,no,good,no,yes, notckd
+357,60.0,170.0,1.01,3.0,2.0,Normal,abnormal,present,notpresent,121.0,,1.85,,,10.8,32.0,4340.0,4.5,yes,No,yes,poor,yes,no,CKD
+358,54.0,153.0,1.005,4.0,5.0, normal,abnormal,notpresent,present,165.0,87.0,2.76,,3.9,11.6,30.0,5939.0,5.6,no,yes,yes,good,no,no,CKD
+359,38.0,169.0,1.025,5.0,,,abnormal,present,notpresent,139.0,83.0,,120.0,3.64,,33.0,14891.0,5.2,yes,yes,yes,good,no,yes, ckd
+360,,98.0,1.02,0.0,5.0,normal,normal,,,171.0,55.0,2.71,141.0,,14.1,47.0,8969.0,,no,no,no,good,no,yes,ckd
+361,35.0,118.0,1.025,4.0,0.0,abnormal,normal,present,present,144.0,22.0,4.67,148.0,5.39,10.8,37.0,12265.0,3.4,no,No,,good,no,,CKD
+362,22.0,146.0,1.02,1.0,0.0,Abnormal,normal,,notpresent,151.0,12.0,0.97,125.0,5.3,9.2,46.0,7813.0,3.2,yes, yes,yes,good,,no,ckd
+363,39.0,124.0,,0.0,1.0,abnormal,normal,notpresent,present,161.0,15.0,3.94,135.0,2.87,13.7,,6569.0,5.7,yes,Yes,no,poor,,yes, ckd
+364,43.0,,1.025,4.0,3.0,abnormal,normal,present,present,73.0,,2.34,146.0,4.52,9.2,44.0,8454.0,4.2,no, yes,no,poor,yes,no, ckd
+365,73.0,171.0,1.025,1.0,,Normal,,present,notpresent,178.0,53.0,3.45,139.0,4.12,13.2,47.0,6150.0,3.9,no,Yes,no,good,yes,yes,ckd
+366,75.0,,1.02,3.0,3.0, normal,abnormal,notpresent,notpresent,117.0,42.0,1.67,131.0,2.92,14.2,38.0,,5.2,no,Yes,no,poor,no,yes,
+367,52.0,99.0,1.02,5.0,5.0,Normal,abnormal,notpresent,present,142.0,90.0,1.22,130.0,5.93,14.3,43.0,9414.0,5.5,yes, no,yes,poor,yes,no, notckd
+368,43.0,171.0,1.025,1.0,3.0,Normal,normal,present,notpresent,141.0,84.0,1.22,148.0,3.25,,46.0,7657.0,5.6,,No,no,poor,,yes,CKD
+369,71.0,151.0,1.01,2.0,5.0, normal,abnormal,present,notpresent,185.0,86.0,0.82,146.0,2.74,15.9,,9947.0,3.9,yes,No,yes,good,no,yes,ckd
+370,30.0,140.0,1.015,1.0,2.0,,abnormal,notpresent,notpresent,150.0,59.0,1.34,148.0,4.58,12.5,28.0,13486.0,5.6,,no,,good,yes,yes, notckd
+371,68.0,118.0,1.015,1.0,2.0, normal,normal,notpresent,present,,20.0,3.49,,5.09,14.6,27.0,10943.0,3.1,, yes,no,good,no,no, ckd
+372,27.0,80.0,,5.0,3.0, abnormal,abnormal,notpresent,,182.0,37.0,4.47,122.0,2.61,13.6,39.0,6662.0,3.1,no, no,yes,poor,yes,yes,ckd
+373,55.0,82.0,1.02,2.0,3.0,,normal,notpresent,notpresent,165.0,79.0,4.16,132.0,4.81,9.7,47.0,7482.0,4.9,,yes,no,poor,no,no,CKD
+374,57.0,156.0,1.02,4.0,5.0,Normal,normal,notpresent,notpresent,141.0,50.0,3.58,146.0,4.36,8.2,20.0,7797.0,3.2,, yes,yes,good,no,,ckd
+375,59.0,171.0,1.01,4.0,1.0, abnormal,abnormal,,notpresent,132.0,25.0,,122.0,2.86,10.6,23.0,8068.0,4.0,yes,yes,no,good,yes,no, ckd
+376,39.0,141.0,,1.0,5.0,normal,normal,notpresent,notpresent,107.0,77.0,,134.0,3.1,12.0,33.0,8480.0,5.0,no,,no,poor,no,yes,
+377,,142.0,1.015,2.0,1.0, normal,normal,present,notpresent,136.0,57.0,1.89,135.0,4.49,13.6,44.0,,4.0,no, yes,no,poor,yes,yes, ckd
+378,67.0,104.0,1.025,2.0,2.0,abnormal,normal,,present,138.0,65.0,1.62,148.0,3.54,15.6,,3983.0,3.5,yes, yes,no,good,no,no,notckd
+379,44.0,135.0,1.02,5.0,0.0, normal,normal,present,notpresent,,73.0,2.82,132.0,5.78,9.8,35.0,8607.0,3.8,yes, yes,,poor,yes,no,CKD
+380,54.0,112.0,1.015,3.0,3.0,normal,normal,notpresent,present,,68.0,2.91,136.0,5.37,9.1,22.0,11543.0,4.4,no, no,no,,no,yes,CKD
+381,44.0,117.0,1.01,4.0,1.0,,normal,notpresent,,183.0,99.0,2.11,122.0,5.94,16.7,45.0,12916.0,4.4,yes,yes,yes,poor,yes,,NOTCKD
+382,48.0,85.0,1.01,5.0,5.0,abnormal,normal,present,,91.0,71.0,2.09,139.0,3.41,9.0,27.0,13143.0,5.3,no,no,yes,,,no,ckd
+383,37.0,137.0,1.015,0.0,2.0,normal,,present,notpresent,162.0,85.0,4.23,130.0,,12.3,25.0,12471.0,5.3,yes, no,yes,poor,no,yes,CKD
+384,65.0,123.0,1.02,4.0,1.0,normal,abnormal,notpresent,present,136.0,20.0,4.05,146.0,4.01,13.3,35.0,4907.0,4.4,yes,Yes,,poor,yes,no,CKD
+385,37.0,124.0,1.01,5.0,5.0,abnormal,abnormal,notpresent,notpresent,123.0,98.0,1.89,140.0,3.72,12.9,,9924.0,5.5,no,yes,yes,poor,no,yes,NOTCKD
+386,21.0,111.0,1.025,4.0,3.0, normal,abnormal,notpresent,present,111.0,27.0,4.61,,2.68,8.8,35.0,12216.0,3.3,yes, no,no,good,no,yes,CKD
+387,,124.0,1.01,,3.0,Abnormal,normal,notpresent,present,133.0,28.0,4.79,,2.68,8.5,26.0,11737.0,3.8,,no,yes,good,yes,no, ckd
+388,54.0,140.0,1.005,0.0,4.0,Abnormal,normal,notpresent,present,195.0,96.0,1.97,,,8.9,49.0,7174.0,5.5,yes,No,yes,poor,yes,yes,ckd
+389,35.0,126.0,1.005,3.0,0.0,Normal,abnormal,present,present,90.0,,2.09,149.0,4.1,13.3,32.0,13573.0,4.1,yes,No,no,poor,yes,,notckd
+390,60.0,100.0,1.02,0.0,4.0,Abnormal,abnormal,present,present,104.0,91.0,2.78,147.0,3.29,12.9,32.0,,5.9,yes,Yes,yes,poor,yes,yes,CKD
+391,55.0,159.0,1.015,1.0,2.0,Abnormal,abnormal,notpresent,present,99.0,35.0,4.74,135.0,4.65,10.1,24.0,10265.0,4.4,, yes,yes,good,yes,no,ckd
+392,52.0,164.0,1.02,5.0,1.0,normal,normal,present,notpresent,126.0,15.0,4.44,140.0,3.39,13.7,44.0,12297.0,5.4,yes, yes,yes,good,no,no,ckd
+393,23.0,154.0,1.02,0.0,2.0, abnormal,abnormal,present,present,116.0,13.0,,122.0,4.52,15.4,39.0,13741.0,4.2,no,No,no,poor,yes,no,
+394,52.0,115.0,1.02,3.0,5.0,abnormal,abnormal,present,notpresent,88.0,38.0,2.27,141.0,3.76,,41.0,4990.0,,yes,,,good,no,yes, ckd
+395,33.0,,,4.0,, normal,normal,notpresent,notpresent,183.0,,2.99,125.0,5.38,12.5,37.0,,,no,no,no,poor,yes,,ckd
+396,40.0,98.0,1.025,0.0,4.0, normal,abnormal,,notpresent,77.0,26.0,2.76,133.0,5.37,14.2,34.0,6998.0,5.2,yes,yes,yes,poor,yes,no,
+397,67.0,99.0,1.025,5.0,4.0, normal,normal,notpresent,notpresent,95.0,52.0,1.37,143.0,4.17,10.3,37.0,6775.0,4.6,no,,yes,poor,yes,no, notckd
+398,39.0,136.0,1.01,0.0,4.0, abnormal,normal,present,notpresent,182.0,89.0,4.36,137.0,3.73,10.8,21.0,14004.0,5.8,yes,,yes,poor,no,yes,ckd
+399,75.0,97.0,1.005,2.0,2.0,Normal,normal,notpresent,present,140.0,75.0,,,3.77,13.5,29.0,12112.0,3.8,no,Yes,yes,poor,yes,no, ckd
+400,27.0,126.0,1.02,4.0,3.0, abnormal,abnormal,present,present,99.0,43.0,,123.0,,16.1,42.0,7645.0,3.3,no, no,no,,no,no, ckd

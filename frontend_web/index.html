@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitalScan AI - Health Dashboard</title>
+    <meta name="description" content="Advanced AI-powered health risk prediction for the whole family. Predict Heart, Diabetes, and Kidney disease risks with ensemble ML models.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Libraries for Charts and PDF Generation -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <h2 class="sidebar-title">VitalScan AI</h2>
+            <div class="theme-toggle" onclick="toggleTheme()" id="theme-btn">
+                <span id="theme-icon">☀️</span> Light Mode
+            </div>
+            <nav class="side-nav">
+                <button class="nav-btn active" onclick="navigateTo('page-home')" id="navbtn-home">🏠 Home</button>
+                <button class="nav-btn" onclick="navigateTo('page-predict')" id="navbtn-predict">🔬 Predict</button>
+                <button class="nav-btn" onclick="navigateTo('page-result')" id="nav-result-btn" style="display:none;">📄 Result</button>
+                <button class="nav-btn" onclick="navigateTo('page-history')" id="navbtn-history">🕒 History</button>
+                <button class="nav-btn" onclick="navigateTo('page-stats')" id="navbtn-stats">📊 Analytics</button>
+                <button class="nav-btn" onclick="navigateTo('page-about')" id="navbtn-about">👤 About Me</button>
+            </nav>
+
+            <!-- <div class="disclaimer-bottom">
+                <p>⚠️ <b>Disclaimer:</b> For educational purposes only. Not a medical substitute.</p>
+            </div> -->
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+
+            <!-- ✅ FAMILY PROFILE SWITCHER BAR -->
+            <div class="profile-bar" id="profile-bar">
+                <div class="profile-bar-label">👤 Active Profile:</div>
+                <div class="profile-cards-scroll" id="profile-cards">
+                    <!-- Dynamically rendered profile cards -->
+                </div>
+                <button class="add-profile-btn" onclick="openAddMemberModal()" title="Add Family Member">
+                    <span>＋</span> Add Member
+                </button>
+            </div>
+
+            <!-- Home Page -->
+            <!-- ✅ LANDING PAGE -->
+            <section id="page-landing" class="page-section landing-page active-page">
+                <!-- Hero Section -->
+                <div class="landing-hero">
+                    <div class="landing-hero-badge">🛡️ AI-Powered Health Awareness</div>
+                    <h1 class="landing-title">Your Health Matters <span class="landing-heart">💙</span></h1>
+                    <p class="landing-subtitle">Early risk detection for Heart, Diabetes, and Kidney diseases — powered by Machine Learning.</p>
+                    <p class="landing-support">Early awareness can help prevent serious illness. You're in the right place.</p>
+                    <div class="landing-cta-row">
+                        <button class="landing-btn-primary" onclick="enterApp()">Start Health Check →</button>
+                        <button class="landing-btn-secondary" onclick="scrollToFeatures()">Learn More ↓</button>
+                    </div>
+                </div>
+
+                <!-- Heartbeat Animation -->
+                <div class="heartbeat-container" aria-hidden="true">
+                    <svg class="heartbeat-svg" viewBox="0 0 400 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <polyline class="heartbeat-line" points="0,40 60,40 80,15 95,65 110,5 125,70 140,40 200,40 220,30 230,50 240,40 400,40"/>
+                    </svg>
+                </div>
+
+                <!-- What We Track Section -->
+                <div id="landing-features" class="landing-section">
+                    <h2 class="landing-section-title">How This Helps You</h2>
+                    <div class="landing-cards">
+                        <div class="landing-card">
+                            <div class="landing-card-icon">🫀</div>
+                            <h3>Heart Risk Detection</h3>
+                            <p>Detect potential cardiac risks early using 13 clinical markers and ensemble ML models.</p>
+                        </div>
+                        <div class="landing-card">
+                            <div class="landing-card-icon">🩸</div>
+                            <h3>Diabetes Risk Prediction</h3>
+                            <p>Understand glucose, insulin, and BMI-related health risks before they become serious.</p>
+                        </div>
+                        <div class="landing-card">
+                            <div class="landing-card-icon">🫘</div>
+                            <h3>Kidney Health Analysis</h3>
+                            <p>Identify possible CKD indicators through key renal blood vitals and biomarkers.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Supportive Message -->
+                <div class="landing-message-box">
+                    <p class="landing-quote">"Small lifestyle changes today can lead to a healthier tomorrow."</p>
+                    <p class="landing-message-sub">Our AI system helps you understand potential health risks so you can take preventive action — early.</p>
+                </div>
+
+                <!-- Features Checklist -->
+                <div class="landing-features-check">
+                    <div class="landing-check-item"><span class="check-icon">✔</span> AI-powered ensemble predictions</div>
+                    <div class="landing-check-item"><span class="check-icon">✔</span> Family health profile tracking</div>
+                    <div class="landing-check-item"><span class="check-icon">✔</span> Personalized risk reduction tips</div>
+                    <div class="landing-check-item"><span class="check-icon">✔</span> PDF health report generation</div>
+                    <div class="landing-check-item"><span class="check-icon">✔</span> Private &amp; stored locally</div>
+                </div>
+
+                <!-- Final CTA -->
+                <div class="landing-final-cta">
+                    <h2>Take the first step towards better health today.</h2>
+                    <button class="landing-btn-primary lg" onclick="enterApp()">Begin Your Health Assessment →</button>
+                    <p class="landing-disclaimer-text">This tool is designed to support awareness, not replace professional medical advice.</p>
+                </div>
+            </section>
+
+            <!-- Home Dashboard -->
+            <section id="page-home" class="page-section" style="display:none;">
+                <div class="hero-card">
+                    <h1>Welcome to VitalScan AI</h1>
+                    <p class="hero-subtitle">Advanced predictive healthcare powered by Machine Learning — for your whole family.</p>
+                    <div class="hero-buttons">
+                        <button class="btn-primary" onclick="navigateTo('page-predict')">Start Diagnosis Scan</button>
+                        <button class="btn-secondary" onclick="navigateTo('page-stats')">View Dataset Analytics</button>
+                    </div>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card"><h3>🫀 Heart Disease</h3><p>Evaluates 13 critical cardiac markers using an ensemble of Logistic Regression &amp; Random Forest.</p></div>
+                    <div class="feature-card"><h3>🩸 Diabetes</h3><p>Assesses onset risk by analyzing Insulin, Glucose, BMI, and Age correlates.</p></div>
+                    <div class="feature-card"><h3>🫘 Kidney Disease</h3><p>Computes CKD probability utilizing dynamic renal blood vitals.</p></div>
+                </div>
+            </section>
+
+            <!-- Prediction Page (Forms) -->
+            <section id="page-predict" class="page-section" style="display:none;">
+                <header class="header">
+                    <h1 class="main-header">Run Diagnostics</h1>
+                    <p class="sub-header">Select a health aspect and provide the clinical parameters.</p>
+                </header>
+
+                <nav class="tabs">
+                    <button class="tab-btn active" onclick="openFormTab(event, 'tab-diabetes')">🩸 Diabetes</button>
+                    <button class="tab-btn" onclick="openFormTab(event, 'tab-heart')">🫀 Heart</button>
+                    <button class="tab-btn" onclick="openFormTab(event, 'tab-kidney')">🫘 Kidney</button>
+                </nav>
+
+                <!-- Diabetes Form -->
+                <div id="tab-diabetes" class="tab-content active-tab">
+                    <form id="diabetes_form" class="glass-form" onsubmit="submitPrediction(event, 'diabetes')">
+                        <div class="form-grid">
+                            <div class="input-group full-width">
+                                <label>Patient Name (Optional)</label>
+                                <input type="text" id="d_name" placeholder="John Doe">
+                            </div>
+                            <div class="input-group"><label>Glucose Level (mg/dL)</label><input type="number" id="d_glucose" min="0" max="600" step="any" required value="120"></div>
+                            <div class="input-group"><label><span class="help-tip" title="Body Mass Index. Weight in kg / (Height in meters)^2">BMI</span></label><input type="number" id="d_bmi" min="10" max="80" step="any" required value="25"></div>
+                            <div class="input-group"><label>Age</label><input type="number" id="d_age" min="0" max="120" required value="45"></div>
+                            <div class="input-group"><label><span class="help-tip" title="2-Hour serum insulin level (mu U/ml)">Insulin</span></label><input type="number" id="d_insulin" min="0" max="1000" step="any" required value="79"></div>
+                        </div>
+                        <button type="submit" class="submit-btn" id="btn_diabetes">Predict Diabetes Risk</button>
+                    </form>
+                </div>
+
+                <!-- Heart Form -->
+                <div id="tab-heart" class="tab-content" style="display:none;">
+                    <form id="heart_form" class="glass-form" onsubmit="submitPrediction(event, 'heart')">
+                        <div class="form-grid">
+                            <div class="input-group full-width"><label>Patient Name (Optional)</label><input type="text" id="h_name" placeholder="Jane Doe"></div>
+                            <div class="input-group"><label>Age</label><input type="number" id="h_age" min="0" max="120" value="50" required></div>
+                            <div class="input-group"><label>Sex</label><select id="h_sex"><option>Male</option><option>Female</option></select></div>
+                            <div class="input-group"><label><span class="help-tip" title="Asymptomatic: No symptoms without exertion. Angina: Chest pain related to heart.">Chest Pain Type</span></label><select id="h_cp"><option>Typical angina</option><option>Atypical angina</option><option>Non-anginal pain</option><option>Asymptomatic</option></select></div>
+                            <div class="input-group"><label><span class="help-tip" title="Resting blood pressure in mm Hg on admission to the hospital">Resting BP (mm Hg)</span></label><input type="number" id="h_trestbps" min="50" max="250" value="120" required></div>
+                            <div class="input-group"><label><span class="help-tip" title="Serum cholestoral in mg/dl">Cholesterol (mg/dl)</span></label><input type="number" id="h_chol" min="50" max="600" value="200" required></div>
+                            <div class="input-group"><label><span class="help-tip" title="Is fasting blood sugar > 120 mg/dl? High levels indicate diabetes risk.">Fasting Blood Sugar</span></label><select id="h_fbs"><option>Lower than 120 mg/ml</option><option>Greater than 120 mg/ml</option></select></div>
+                            <div class="input-group"><label><span class="help-tip" title="Resting electrocardiographic results. Abnormalities indicate potential heart issues.">Resting ECG</span></label><select id="h_restecg"><option>Normal</option><option>ST-T wave abnormality</option><option>Left ventricular hypertrophy</option></select></div>
+                            <div class="input-group"><label><span class="help-tip" title="Maximum heart rate achieved during a stress test">Max Heart Rate</span></label><input type="number" id="h_thalach" min="40" max="250" value="150" required></div>
+                            <div class="input-group"><label><span class="help-tip" title="Does physical exercise induce severe chest pain?">Exercise Induced Angina</span></label><select id="h_exang"><option>No</option><option>Yes</option></select></div>
+                            <div class="input-group"><label><span class="help-tip" title="ST depression induced by exercise relative to rest on the ECG graph">ST Depression</span></label><input type="number" step="any" id="h_oldpeak" min="0" max="10" value="1.0" required></div>
+                            <div class="input-group"><label><span class="help-tip" title="The slope of the peak exercise ST segment. 'Flat' or 'Down' can indicate ischemia.">ST Slope Segment</span></label><select id="h_slope"><option>Upsloping</option><option>Flat</option><option>Downsloping</option></select></div>
+                            <div class="input-group"><label><span class="help-tip" title="Number of major blood vessels (0-4) colored by fluoroscopy. Fewer colored vessels mean blockage.">Major Vessels Colored</span></label><select id="h_ca"><option>Zero</option><option>One</option><option>Two</option><option>Three</option><option>Four</option></select></div>
+                            <div class="input-group"><label><span class="help-tip" title="A blood disorder. Normal implies standard blood flow, whereas defects imply reduced flow in parts of the heart.">Thalassemia</span></label><select id="h_thal"><option>Normal</option><option>Fixed Defect</option><option>Reversable Defect</option><option>No</option></select></div>
+                        </div>
+                        <button type="submit" class="submit-btn" id="btn_heart">Predict Heart Risk</button>
+                    </form>
+                </div>
+
+                <!-- Kidney Form -->
+                <div id="tab-kidney" class="tab-content" style="display:none;">
+                    <form id="kidney_form" class="glass-form" onsubmit="submitPrediction(event, 'kidney')">
+                        <div class="form-grid">
+                            <div class="input-group full-width"><label>Patient Name (Optional)</label><input type="text" id="k_name" placeholder="Alex Smith"></div>
+                            <div class="input-group"><label>Age</label><input type="number" id="k_age" min="0" max="120" value="50" required></div>
+                            <div class="input-group"><label>Blood Pressure</label><input type="number" id="k_bp" min="40" max="250" value="80" required></div>
+                            <div class="input-group"><label><span class="help-tip" title="Random blood glucose level. Normal is usually below 140 mg/dL.">Blood Glucose</span></label><input type="number" id="k_bgr" min="0" max="600" value="150" required></div>
+                            <div class="input-group"><label><span class="help-tip" title="Blood urea nitrogen (BUN). High levels may indicate kidneys are not filtering waste efficiently.">Blood Urea</span></label><input type="number" id="k_bu" min="0" max="400" value="40" required></div>
+                            <div class="input-group"><label><span class="help-tip" title="A waste product from muscle breakdown. High levels mean kidneys aren't filtering it out well.">Serum Creatinine</span></label><input type="number" step="any" id="k_sc" min="0" max="30" value="1.2" required></div>
+                            <div class="input-group"><label><span class="help-tip" title="Protein in red blood cells that carries oxygen. Low numbers suggest anemia, which is common in CKD.">Hemoglobin</span></label><input type="number" step="any" id="k_hemo" min="0" max="25" value="15" required></div>
+                        </div>
+                        <button type="submit" class="submit-btn" id="btn_kidney">Predict Kidney Risk</button>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Result Dashboard Page -->
+            <section id="page-result" class="page-section" style="display:none;">
+                <div class="result-toolbar">
+                    <button class="btn-secondary" onclick="navigateTo('page-predict')">← Back to Predict</button>
+                    <button class="btn-primary" onclick="downloadReport()">📄 Download PDF Report</button>
+                </div>
+                
+                <div id="printable-report" class="printable-area glass-form">
+                    <div class="report-header">
+                        <h2>VitalScan Official Report</h2>
+                        <p class="report-date" id="report-date"></p>
+                    </div>
+                    <hr class="report-divider">
+                    
+                    <div class="patient-info">
+                        <h3>Patient Information</h3>
+                        <p><b>Name:</b> <span id="r-name"></span></p>
+                        <p><b>Target Diagnosis:</b> <span id="r-disease"></span></p>
+                    </div>
+
+                    <div class="assessment" id="r-assessment-box">
+                        <h3>Clinical Assessment</h3>
+                        <h1 id="r-risk-level"></h1>
+                        <p class="confidence-text">Ensemble Confidence: <span id="r-confidence"></span>%</p>
+                    </div>
+
+                    <div class="model-breakdown">
+                        <div class="metric-box">
+                            <p>Logistic Regression</p>
+                            <h3 id="r-lr"></h3>
+                        </div>
+                        <div class="metric-box">
+                            <p>Random Forest</p>
+                            <h3 id="r-rf"></h3>
+                        </div>
+                    </div>
+
+                    <div class="recommendations">
+                        <h3>AI Recommendations</h3>
+                        <ul id="r-recs"></ul>
+                    </div>
+
+                    <!-- ✅ PERSONALIZED RISK REDUCTION SECTION -->
+                    <div class="risk-reduction-section" id="risk-reduction-section">
+                        <div class="risk-reduction-header">
+                            <span class="risk-reduction-icon">🩺</span>
+                            <h3>How to Reduce This Risk</h3>
+                        </div>
+                        <p class="risk-reduction-intro" id="risk-reduction-intro"></p>
+                        <div class="risk-reduction-grid" id="risk-reduction-grid">
+                            <!-- Populated dynamically -->
+                        </div>
+                    </div>
+
+                    <p class="small-disclaimer">*Recommendations and tips are automated based on risk stratification. Consult a licensed physician for professional medical advice.</p>
+                </div>
+            </section>
+
+            <!-- History Page -->
+            <section id="page-history" class="page-section" style="display:none;">
+                <h1 class="main-header">Prediction History</h1>
+                <p class="sub-header">Review past prognostic evaluations for the active family profile.</p>
+                <div class="glass-form">
+                    <div class="table-container">
+                        <table id="historyTable">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Patient Name</th>
+                                    <th>Diagnosis Track</th>
+                                    <th>Risk Level</th>
+                                    <th>Confidence</th>
+                                </tr>
+                            </thead>
+                            <tbody id="history-body">
+                                <!-- Populated dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <button class="btn-danger mt-2" onclick="clearHistory()">🗑️ Clear History</button>
+                </div>
+            </section>
+
+            <!-- Stats Page -->
+            <section id="page-stats" class="page-section" style="display:none;">
+                <h1 class="main-header">System Analytics Dashboard</h1>
+                <p class="sub-header">Visualizing Machine Learning architecture and real-time distributions.</p>
+                
+                <div class="stats-grid">
+                    <div class="glass-card">
+                        <h3>Model Accuracies</h3>
+                        <div class="chart-wrapper"><canvas id="accuracyChart"></canvas></div>
+                    </div>
+                    <div class="glass-card">
+                        <h3>Risk Distribution</h3>
+                        <div class="chart-wrapper"><canvas id="riskDistributionChart"></canvas></div>
+                    </div>
+                    <div class="glass-card">
+                        <h3>Diagnosis Query Volume</h3>
+                        <div class="chart-wrapper"><canvas id="polarVolumeChart"></canvas></div>
+                    </div>
+                    <div class="glass-card">
+                        <h3>Health Metric Distributions</h3>
+                        <div class="chart-wrapper"><canvas id="boxPlotChart"></canvas></div>
+                    </div>
+                    <div class="glass-card">
+                        <h3>30-Day Risk Trajectory</h3>
+                        <div class="chart-wrapper"><canvas id="lineTrajectoryChart"></canvas></div>
+                    </div>
+                    <div class="glass-card">
+                        <h3>Age Correlates (Scoring)</h3>
+                        <div class="chart-wrapper"><canvas id="scatterAgeChart"></canvas></div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="page-about" class="page-section" style="display:none;">
+                <div class="about-card glass-form text-center">
+                    <img src="https://ui-avatars.com/api/?name=Rajrajeshwari+Khatawate&background=1b4bde&color=fff&size=128&bold=true" alt="Arayana Sood" class="profile-pic">
+                    <h1 class="mt-2">Rajrajeshwari Khatawate</h1>
+                    <h3 class="text-blue">B.Tech Computer Science &mdash; Data Science &amp; AI</h3>
+                    <p class="mt-2" style="max-width:650px; margin: 20px auto; line-height:1.9; font-size:0.97rem;">
+                        Hello! I am <b>Rajrajeshwari Khatawate</b>, a B.Tech Computer Science student with a strong interest in <b>Data Science and Artificial Intelligence</b>.
+                        <br><br>
+                        I developed this project to create an AI-powered system that can help people understand the potential risk of <b>Heart Disease, Diabetes, and Kidney Disease</b> at an early stage. The goal is to promote awareness about preventive healthcare by using Machine Learning to analyze important health parameters and provide meaningful insights.
+                        <br><br>
+                        Along with risk prediction, this system provides helpful suggestions that may support users in making healthier lifestyle choices. This project reflects my passion for using technology and data science to build solutions that can make a <b>positive impact on people's lives</b>.
+                    </p>
+                    <div style="display:flex; gap:14px; justify-content:center; flex-wrap:wrap; margin-top:10px;">
+                        <span style="background:rgba(56,189,248,0.12);border:1px solid rgba(56,189,248,0.25);color:#38bdf8;padding:6px 16px;border-radius:20px;font-size:0.85rem;font-weight:600;">🤖 Machine Learning</span>
+                        <span style="background:rgba(129,140,248,0.12);border:1px solid rgba(129,140,248,0.25);color:#818cf8;padding:6px 16px;border-radius:20px;font-size:0.85rem;font-weight:600;">📊 Data Science</span>
+                        <span style="background:rgba(74,222,128,0.12);border:1px solid rgba(74,222,128,0.25);color:#4ade80;padding:6px 16px;border-radius:20px;font-size:0.85rem;font-weight:600;">🏥 Preventive Healthcare</span>
+                        <span style="background:rgba(251,146,60,0.12);border:1px solid rgba(251,146,60,0.25);color:#fb923c;padding:6px 16px;border-radius:20px;font-size:0.85rem;font-weight:600;">💻 Web Development</span>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- ✅ ADD FAMILY MEMBER MODAL -->
+    <div id="add-member-modal" class="modal-overlay" onclick="closeAddMemberModal(event)">
+        <div class="modal-box">
+            <div class="modal-header">
+                <h3>👨‍👩‍👧 Add Family Member</h3>
+                <button class="modal-close" onclick="closeAddMemberModal()">✕</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-field">
+                    <label>Name</label>
+                    <input type="text" id="m_name" placeholder="e.g. Father, Anjali..." maxlength="20">
+                </div>
+                <div class="modal-field">
+                    <label>Relation</label>
+                    <select id="m_relation">
+                        <option value="Father">👨 Father</option>
+                        <option value="Mother">👩 Mother</option>
+                        <option value="Son">👦 Son</option>
+                        <option value="Daughter">👧 Daughter</option>
+                        <option value="Grandpa">👴 Grandpa</option>
+                        <option value="Grandma">👵 Grandma</option>
+                        <option value="Self">🧑 Self</option>
+                        <option value="Other">👤 Other</option>
+                    </select>
+                </div>
+                <div class="modal-field">
+                    <label>Pick an Avatar</label>
+                    <div class="emoji-picker" id="emoji-picker">
+                        <span class="emoji-opt selected" onclick="selectEmoji(this, '👨')">👨</span>
+                        <span class="emoji-opt" onclick="selectEmoji(this, '👩')">👩</span>
+                        <span class="emoji-opt" onclick="selectEmoji(this, '👦')">👦</span>
+                        <span class="emoji-opt" onclick="selectEmoji(this, '👧')">👧</span>
+                        <span class="emoji-opt" onclick="selectEmoji(this, '👴')">👴</span>
+                        <span class="emoji-opt" onclick="selectEmoji(this, '👵')">👵</span>
+                        <span class="emoji-opt" onclick="selectEmoji(this, '🧑')">🧑</span>
+                        <span class="emoji-opt" onclick="selectEmoji(this, '🧒')">🧒</span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-secondary" onclick="closeAddMemberModal()">Cancel</button>
+                <button class="btn-primary" onclick="addFamilyMember()">Add to Family</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ✅ NEW FLOATING CHATBOT BUBBLE -->
+    <!-- Floating trigger button -->
+    <button id="chat-bubble-btn" onclick="openChat()" title="Open VitalBot Assistant">
+        <span class="chat-bubble-icon">💬</span>
+        <span class="chat-bubble-ping"></span>
+    </button>
+
+    <!-- Chat Panel (slides up on open) -->
+    <div id="chat-panel" class="chat-panel-closed">
+        <!-- Gradient Header -->
+        <div class="chat-panel-header">
+            <div class="chat-header-left">
+                <div class="chat-bot-avatar">🤖</div>
+                <div>
+                    <div class="chat-bot-name">VitalBot</div>
+                    <div class="chat-bot-status">● Always here to help</div>
+                </div>
+            </div>
+            <button class="chat-close-btn" onclick="closeChat()" title="Close chat">✕</button>
+        </div>
+
+        <!-- Quick Suggestion Chips -->
+        <div class="chat-chips-area">
+            <div class="chips-label">Quick Questions:</div>
+            <div class="chips-scroll">
+                <button class="chip-btn" onclick="sendChip('What does BMI mean?')">📏 What is BMI?</button>
+                <button class="chip-btn" onclick="sendChip('What is Thalassemia?')">🩸 Thalassemia?</button>
+                <button class="chip-btn" onclick="sendChip('Give me a heart health tip')">🫀 Heart tip</button>
+                <button class="chip-btn" onclick="sendChip('Give me a diabetes tip')">🩸 Diabetes tip</button>
+                <button class="chip-btn" onclick="sendChip('What is serum creatinine?')">🫘 Creatinine?</button>
+                <button class="chip-btn" onclick="sendChip('What is angina?')">💊 Angina?</button>
+                <button class="chip-btn" onclick="sendChip('What does asymptomatic mean?')">❓ Asymptomatic?</button>
+                <button class="chip-btn" onclick="sendChip('What is cholesterol?')">🧪 Cholesterol?</button>
+            </div>
+        </div>
+
+        <!-- Messages Area -->
+        <div id="chat-messages">
+            <div class="bot-msg-wrap">
+                <div class="bot-avatar-sm">🤖</div>
+                <div class="bot-msg">Hello! I'm <b>VitalBot</b> 👋<br>Ask me about medical terms in the forms, or tap a quick question above!</div>
+            </div>
+        </div>
+
+        <!-- Input Area -->
+        <div class="chat-input-area">
+            <input type="text" id="chat-input" placeholder="Ask a health question..." onkeypress="handleChatEnter(event)">
+            <button onclick="sendChatMessage()" id="chat-send-btn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
