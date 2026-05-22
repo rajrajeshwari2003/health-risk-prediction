@@ -37,11 +37,12 @@ python app.py
 
 
 ## 👩‍💻 Author
-
+```
 Rajrajeshwari Khatawate
 - GitHub: https://github.com/rajrajeshwari2003
 - LinkedIn: (https://www.linkedin.com/in/rajrajeshwari-khatawate-/)
 ```
+
 ## 📄 License
 
 This project is developed for educational and academic purposes.
