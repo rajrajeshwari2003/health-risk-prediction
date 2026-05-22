@@ -35,11 +35,7 @@ python app.py
 ```
 
 
----
 
-## 7. Add Author section
-
-```md
 ## 👩‍💻 Author
 
 Rajrajeshwari Khatawate
